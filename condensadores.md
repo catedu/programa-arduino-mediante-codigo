@@ -10,5 +10,3 @@ En casi todas las aplicaciones prácticas cada conductor se encuentra inicialmen
 
 Hay que resaltar que aunque cada placa se encuentra cargada, la carga neta del condensador sigue siendo nula, puesto que la carga de cada conductor es igual a la del otro pero con signo contrario. Es por ello que cuando se dice que un conductor tiene una carga Q realmente lo que se está diciendo es que tiene una carga +Q en el conductor que se encuentra a mayor potencial y una carga – Q en el conductor a menor potencial (supuesto Q positiva).
 
-****
-

@@ -5,4 +5,4 @@ Antes de empezar a realizar pequeños proyectos, vamos a dar un repaso a la plat
 
 ![](img/Captura_de_pantalla_2015-05-19_a_las_11.49.54.png)
 
-
+![](img/Captura_de_pantalla_2015-05-19_a_las_11.49.46.png)

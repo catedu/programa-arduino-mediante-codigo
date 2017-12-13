@@ -4,6 +4,7 @@
 Uno de los aspectos claves para el buen funcionamiento de proyectos con Arduino que incluyan elementos que consuman una intensidad superior a 200 mA como motores, relés, electroválvulas, etc... es la alimentación eléctrica de la placa. Normalmente tenemos dos posibilidades para alimentar Arduino:
 
 ![](img/Arduino_Uno_-_R3.1.jpg)
+
 **Mediante el cable USB conectado al ordenador:**
 
 - Cada pin proporciona 40 mA.
@@ -15,9 +16,7 @@ Uno de los aspectos claves para el buen funcionamiento de proyectos con Arduino 
 - La intensidad máxima que puede entregar Arduino a los actuadores que queramos controlar (servos, motores, relés,...) es de 1A, aunque una exposición prolongada a esta corriente puede estropear la placa. Lo recomendable son 800 mA.
 - El pin serigrafiado con Vin proporciona directamente el voltaje de la fuente conectada al jack de Arduino (menos la caída de tensión del diodo de protección), desde ese pin podemos sacar un cable y alimentar a los actuadores que necesitemos. Por ejemplo, si alimentamos con una pila externa de 9 V conectada al jack, en el pin Vin tendremos aproximadamente 9 V (hay que restar la caída de tensión del diodo de protección). Además en los pines 5V y 3.3V dispondremos también de dichos voltajes aunque la fuente externa sea de 9V.
 
-```
 Si conectamos demasiada carga, la placa Arduino suele tener un comportamiento anómalo pudiéndose se resetear el micro.
-```
 
 **Conectando el positivo (+Vcc) de la fuente externa a Vin y el negativo a GND:**
 

@@ -1,1 +1,12 @@
-{"plugins": ["youtube", "accordion"]}
+{
+    "plugins": ["youtube", "accordion", "-highlight", "sunlight-highlighter", "image-captions", "quiz"],
+    "pluginsConfig": {
+        "sunlight-highlighter": {
+            "theme": "dark",
+            "lineNumbers": true
+        },
+        "image-captions": {
+            "caption": "Imagen - _CAPTION_"
+        }
+    }
+}

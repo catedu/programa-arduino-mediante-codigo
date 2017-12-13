@@ -1,7 +1,8 @@
 
 # Diodos
 
-![](img/img2.1.png)
+![](img/m3img2.1.png)
+
 Seguro que has oído hablar de los diodos LED (Light-Emitting Diode) pues están muy de moda. Un diodo led no es más que un diodo que emite luz cuando está polarizado correctamente.
 
 Un diodo (del griego "dos caminos") es un dispositivo semiconductor que permite el paso de la corriente eléctrica en una única dirección con características similares a un interruptor.

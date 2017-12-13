@@ -7,7 +7,7 @@ Necesitamos añadir una resistencia entre el pin y el led, para evitar que el le
 
 Vamos a ver el efecto que queremos realizar:
 
-<video width="320" height="240" class="mediaelement" src="semaforo.mp4" controls="controls">[semaforo.mp4](semaforo.mp4)</video>
+{% youtube %}https://www.youtube.com/watch?v=ntLtCwBPeB4{% endyoutube %}
 
 Carga el programa de la página siguiente en Arduino y verás como actúa.
 
@@ -24,7 +24,38 @@ Para que funcione debemos tener en cuenta que:
 
 Para ver lo que nuestro Arduino nos comunica por Serial, abrimos el monitor Serial que tenemos en el programa Arduino:
 
-![](img/img3.png)
+![](img/m2img3.png)
 ![](img/Captura_de_pantalla_2015-05-19_a_las_12.00.34.png)
 
+```cpp+lineNumbers:true
+/* Semáforo Arduino
+  Leds conectados a pines 3, 4 y 5 */
+int verde = 3;
+int amarillo = 4;
+int rojo = 5;
 
+void setup()
+{
+ pinMode(verde, OUTPUT);
+ pinMode(amarillo, OUTPUT);
+ pinMode(rojo, OUTPUT);
+ Serial.begin(9600); //inicializa la comunicación Serial
+}
+
+void loop()
+{
+ Serial.println("Semaforo - Inicio"); //Escribe el texto 
+ digitalWrite(verde, HIGH);
+ Serial.println("Semaforo - Verde"); //Escribe el texto
+ delay(30000);
+ digitalWrite(verde, LOW);
+ digitalWrite(amarillo, HIGH);
+ Serial.println("Semaforo - Amarillo"); //Escribe texto
+ delay(8000);
+ digitalWrite(amarillo, LOW);
+ digitalWrite(rojo, HIGH);
+ Serial.println("Semaforo - Rojo"); //Escribe el texto
+ delay(20000);
+ digitalWrite(rojo, LOW);
+}
+```

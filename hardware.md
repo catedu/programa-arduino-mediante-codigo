@@ -47,15 +47,13 @@ Hay también otro tipo de "shields" que proporcionan funciones como conexión Et
 
 Algunos ejemplos:
 
-![](edubasica01.jpg)
+![](img/edubasica01.jpg)
 
+![](img/1762428107_baf60121e2_o.jpg)
 
+![](img/Arduino_Ethernet_Shield.jpg)
 
-
-
-
-![](1762428107_baf60121e2_o.jpg)
-
+![](img/Triggertrap_shield_on_arduino.jpg)
 
  
 

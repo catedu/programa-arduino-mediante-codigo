@@ -15,6 +15,6 @@ Por ejemplo si hacemos una lectura previa de lo que nos devuelve el LDR y los va
 
 *Observa si tu montaje necesita de algún ajuste utilizando la función map.*
 
-*[Aquí tienes un Excel](calculo_map.xlsx) (xlsx - 12,88 <abbr title="KiloBytes" lang="en">KB</abbr>) para ver la transformación lineal que hace map con los valores que hemos comentado*
+*[Aquí tienes un Excel](http://aularagon.catedu.es/materialesaularagon2013/Arduino-codigo/3_Electronica_analogica//calculo_map.xlsx) (xlsx - 12,88 <abbr title="KiloBytes" lang="en">KB</abbr>) para ver la transformación lineal que hace map con los valores que hemos comentado*
 
 ![](img/img0.9.png)
