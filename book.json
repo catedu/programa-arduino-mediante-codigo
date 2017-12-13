@@ -7,6 +7,22 @@
         },
         "image-captions": {
             "caption": "Imagen - _CAPTION_"
+        },
+        "quiz": {
+            "labels": {
+                "check": "Comprobar",
+                "showExplanation": "Retroalimentación",
+                "showCorrect": "Mostrar la respuesta correcta",
+                "explanationHeader": "Explicación"
+            },
+            "text": {
+                "noChosen": "Choose at least one answer",
+                "incomplete": "Some correct answers are missing"
+            },
+            "buttons": {
+                "showCorrect": true,
+                "showExplanation": true
+            }
         }
     }
 }
