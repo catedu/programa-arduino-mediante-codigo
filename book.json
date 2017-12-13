@@ -16,8 +16,8 @@
                 "explanationHeader": "Explicación"
             },
             "text": {
-                "noChosen": "Choose at least one answer",
-                "incomplete": "Some correct answers are missing"
+                "noChosen": "Elige al menos una respuesta",
+                "incomplete": "Faltan algunas respuestas correctas"
             },
             "buttons": {
                 "showCorrect": true,
