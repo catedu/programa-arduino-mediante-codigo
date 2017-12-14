@@ -5,9 +5,38 @@ Podemos jugar con el transistor en los estados saturación y corte, para ello va
 
 El programa sería:
 
+```cpp
+int ledPin = 6;
+int potenPin = A0;
+int intensity, valor_poten;
+int n;
+
+void setup() {
+pinMode(ledPin, OUTPUT);
+Serial.begin(9600);
+n=1;
+}
+
+void loop() {
+    if (n%2==0) intensity = 0;
+    else intensity = 255;
+    analogWrite(ledPin,intensity); //Envia una onda PWM especificado en la varible: intensity.
+    Serial.print("n=");
+    Serial.print(String(n));
+    Serial.print("\tintensity = ");
+    Serial.print(String(intensity));
+    Serial.print("\n");
+    n++;
+
+    delay (3000);
+}
+```
+El programa es un poco "tremendo" ¿hay alguna manera de simplificarlo?
+
 Pondremos una resistencia de colector de 1k para forzar una corriente de saturación, pero como desde el conector X2-2 hasta V+ hay mucha distancia para conectar los dos extremos de la resistencia, utilizaremos la placa Protoboard:
 
-![](img/img0.3.png)
+![](img/m3img0.3.png)
+
 Mediremos entre colector y masa, y vemos que alternativamente pasa de los estado corte (casi 5V) a saturación (casi 0V) :
 
 {% youtube %}https//www.youtube.com/watch?v=8ACK1oGoq-s?rel=0{% endyoutube %}

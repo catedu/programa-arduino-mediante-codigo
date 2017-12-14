@@ -9,13 +9,14 @@ Para hacer funcionar dos motores DC con Edubásica sólo tenemos que conectar en
 
 Edubásica lleva un interruptor que permite tomar el voltaje de la salida Vin de Arduino (alimentación externa), necesaria para dar la corriente suficiente para accionar los motores. Cuando el piloto Vin está encendido significa que la alimentación de Edubásica viene de Vin de Arduino, o bien, directamente desde una fuente externa conectada a la clema Vin de Edubásica de la regleta de alimentación (en la imagen la regleta de la parte inferior).
 
- es muy fácil, podemos conectar hasta dos motores en los pines dispuestos para ello, y utilizaremos:
+Es muy fácil, podemos conectar hasta dos motores en los pines dispuestos para ello, y utilizaremos:
 
 - Para el motor A el control de velocidad por el pin 10 y las direcciones por 8 y 9
 - Para el motor B el control de velocidad por el pin 11 y las direcciones por 12 y 13.
 - Interruptor en ON
 
 ![](http://localhost:51235/6_Control_robotica/resources/img4.png)
+
 Conectando los dos terminales del motor a la clema del transistor de Edubásica, también podríamos hacerlo funcionar enviando un nivel HIGH al pin digital 6 de Arduino.  Este pin (D6) está conectado directamente a la base del transistor de Edubásica. La desventaja respecto al CI L293 es que, en este caso, no podríamos cambiar el sentido de giro.
 
 ![](img/Edubasica-L293.png)

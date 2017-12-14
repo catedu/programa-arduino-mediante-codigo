@@ -4,10 +4,10 @@
 Vamos a ver un ejemplo implementando un **mosaico de LEDs**:
 
 ![](img/Captura_de_pantalla_2015-04-03_a_las_19.05.39.png)
+
 Las conexiones serán las siguientes:
 
 ![](img/Captura_de_pantalla_2015-04-03_a_las_19.08.22.png)
-
 
 El objetivo es que según la tecla que presionemos en la aplicación “Blue Control”, se encenderá el led correspondiente: (arriba, abajo, izquierda, derecha y centro). Además si pulsamos alguno de los botones laterales, los leds deberán realizar una animación de todos los leds:
 
@@ -31,5 +31,149 @@ Lo único que nos queda es comparar el dato recibido y elegir la acción que tie
 
 ### Programa
 
+```cpp
+//LEDS CONECTADOS EN FORMA DE ESTRELLA Y UNO EN EL CENTRO
+//mEDIANTE BLUETERM ENVIAMOS CARACTERES (SEGUN LAS TECLAS) Y SE
+//ENCIENDEN / APAGAN LOS LEDS SELECCIONADOS
+int ledArriba = 2;
+int ledCentro = 6;
+int ledAbajo = 4;
+int ledDerecha = 3;
+int ledIzquierda = 5;
+byte dato;
+////////////////////////////////////////////////////////////////////////
+void setup() {
+Serial.begin(9600);
+pinMode(ledArriba,OUTPUT);
+pinMode(ledAbajo,OUTPUT);
+pinMode(ledIzquierda,OUTPUT);
+pinMode(ledDerecha,OUTPUT);
+pinMode(ledCentro,OUTPUT);
+}
+void loop() {
+  if (Serial.available()) //Guardamos en la variable dato el valor leido
+        dato= Serial.read();
+   //Comprobamos el dato
+   switch(dato)
+       {//Si recibimos una  ...
+         case 85: //ARRIBA
+         {
+           digitalWrite(ledArriba, HIGH);
+           digitalWrite(ledAbajo, LOW);
+           digitalWrite(ledDerecha, LOW);
+           digitalWrite(ledIzquierda, LOW);
+           digitalWrite(ledCentro, LOW);
+           
+         break;
+       }
+         case 68: //"U": ABAJO
+         {
+           digitalWrite(ledArriba, LOW);
+           digitalWrite(ledAbajo, HIGH);
+           digitalWrite(ledDerecha, LOW);
+           digitalWrite(ledIzquierda, LOW);
+           digitalWrite(ledCentro, LOW);
+           
+           break;
+         }
+           case 67: //"D": CENTRO
+         {
+           digitalWrite(ledArriba, LOW);
+           digitalWrite(ledAbajo, LOW);
+           digitalWrite(ledDerecha, LOW);
+           digitalWrite(ledIzquierda, LOW);
+           digitalWrite(ledCentro, HIGH);
+           
+           break;
+         }
+         case 76: //"L": IZQ
+         { 
+           digitalWrite(ledArriba, LOW);
+           digitalWrite(ledAbajo, LOW);
+           digitalWrite(ledDerecha, LOW);
+           digitalWrite(ledIzquierda, HIGH);
+           digitalWrite(ledCentro, LOW);
+           break;
+         }
+         case 82: //"R": DCH
+         {
+           digitalWrite(ledArriba, LOW);
+           digitalWrite(ledAbajo, LOW);
+           digitalWrite(ledDerecha, HIGH);
+           digitalWrite(ledIzquierda, LOW);
+           digitalWrite(ledCentro, LOW);
+           break;
+         }
+         case 97: //Recibimos "a"
+         {
+            sentidoReloj();
+            break;
+         }
+         case 98: //Recibimos "b"
+         {
+           sentidoContrario();
+           break;           
+         }
+         case 99: //Recibimos "c"
+         {
+           fueraDentro();
+           break;          
+         }
+}
+}
 
+void sentidoReloj(){
+   digitalWrite(ledArriba, HIGH);   
+  delay(100);                  
+  digitalWrite(ledArriba, LOW);    
+  delay(10); 
+  digitalWrite(ledDerecha, HIGH);   
+  delay(100);                  
+  digitalWrite(ledDerecha, LOW);    
+  delay(10); 
+  digitalWrite(ledAbajo, HIGH);   
+  delay(100);                  
+  digitalWrite(ledAbajo, LOW);    
+  delay(10); 
+  digitalWrite(ledIzquierda, HIGH);   
+  delay(100);                  
+  digitalWrite(ledIzquierda, LOW);    
+  delay(10); 
+ }
+
+void sentidoContrario(){
+  digitalWrite(ledArriba, HIGH);   
+  delay(100);                  
+  digitalWrite(ledArriba, LOW);    
+  delay(10); 
+  digitalWrite(ledIzquierda, HIGH);   
+  delay(100);                  
+  digitalWrite(ledIzquierda, LOW);    
+  delay(10); 
+  digitalWrite(ledAbajo, HIGH);   
+  delay(100);                  
+  digitalWrite(ledAbajo, LOW);    
+  delay(10); 
+  digitalWrite(ledDerecha, HIGH);   
+  delay(100);                  
+  digitalWrite(ledDerecha, LOW);    
+  delay(10); 
+  }
+void fueraDentro(){
+ digitalWrite(ledArriba, HIGH);                     
+  digitalWrite(ledDerecha, HIGH);    
+  digitalWrite(ledAbajo, HIGH);                     
+  digitalWrite(ledIzquierda, HIGH);
+  delay(1000);
+  digitalWrite(ledArriba, LOW);   
+  digitalWrite(ledDerecha, LOW); 
+  digitalWrite(ledAbajo, LOW); 
+  digitalWrite(ledIzquierda, LOW);
+  delay(10);
+  digitalWrite(ledCentro, HIGH);   
+  delay(1000);                  
+  digitalWrite(ledCentro, LOW);    
+  delay(10); 
+}
+```
 

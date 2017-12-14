@@ -3,6 +3,7 @@
 
 ![](img/motorDC.jpg)
 
+**Arduino (UNO)** no proporciona corriente suficiente para hacer funcionar, en condiciones "dignas", un motor de corriente continua de los que solemos usar en el aula-taller de Tecnologías (motor DC). Conviene alimentar Arduino con una fuente externa (7 -12 V)  para poder proporcionar  intensidad necesaria para el par motor requerido en los proyectos. Para más información de cómo hacerlo se recomienda consultar el apartado (Alimentación eléctrica de Arduino). Existen "shields" o tarjetas que se encajan sobre Arduino y le añaden funciones específicas como mover motores DC.
 
 ### Alimentación
 

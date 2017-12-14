@@ -2,6 +2,7 @@
 # Sensor de ultrasonidos
 
 ![](img/Captura_de_pantalla_2015-04-01_a_las_22.40.00.png)
+
 # Conocimiento previo
 
 Programación básica de Arduino, escritura en puerto serie.

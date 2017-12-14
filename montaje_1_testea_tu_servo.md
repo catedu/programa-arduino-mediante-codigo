@@ -1,7 +1,7 @@
 
 # Montaje 1: Testea tu servo
 
-En el siguiente programa de testeo en el [forum arduino](http://forum.arduino.cc/index.php?topic=118333.0) que te lo puedes [descargar aquí](control-servo.ino) (ino - 1,36 <abbr title="KiloBytes" lang="en">KB</abbr>), puedes probar tu servo <br />
+En el siguiente programa de testeo en el [forum arduino](http://forum.arduino.cc/index.php?topic=118333.0) que te lo puedes [descargar aquí](http://aularagon.catedu.es/materialesaularagon2013/Arduino-codigo/6_Control_robotica/control-servo.ino) (ino - 1,36 <abbr title="KiloBytes" lang="en">KB</abbr>), puedes probar tu servo <br />
 
 - Conecta el servo al pin 7 
 - Utiliza el puerto serie para teclear el ángulo que quieras con el teclado de tu ordenador.

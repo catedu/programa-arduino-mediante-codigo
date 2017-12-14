@@ -13,16 +13,19 @@ Dependen de 3 parámetros principalmente:
 
 **Frecuencia f :** Número de veces que la onda repite su ciclo en 1 segundo (se mide en hertzios).
 
-**Periodo T ** es simplemente es la inversa de la frecuencia. T=1/f
+**Periodo T** es simplemente es la inversa de la frecuencia. T=1/f
 
 La relación entre ellas es muy fácil pues las ondas electromagnéticas viajan a la velocidad de la luz c y si velocidad es espacio/tiempo luego c = λ/T luego **c= λ*f**
 
 Dentro del espectro electromágnético encontramos diferentes tipos de señales dependiendo de las características de su onda.
 
 ![](img/Captura_de_pantalla_2015-04-03_a_las_16.58.35.png)
+
 **TRANSMISIÓN INALÁMBRICA: BLUETOOTH.**
 
-![](img/bluetooth-670069_640.png)- Hoy en día, este grupo está formado por miles de empresas y se utiliza no sólo para teléfonos sino para cientos de dispositivos.
+![](img/bluetooth-670069_640.png)
+
+- Hoy en día, este grupo está formado por miles de empresas y se utiliza no sólo para teléfonos sino para cientos de dispositivos.
 - Su curioso nombre viene de un antiguo rey Noruego y Danés, y su símbolo, de las antiguas ruinas que representan ese mismo nombre. 
 - Bluetooth es una red inalámbrica de corto alcance pensada para conectar pares de dispositivos y crear una pequeña red punto a punto, (sólo 2 dispositivos).
 - Utiliza una parte del espectro electromagnético llamado “Banda ISM”, reservado para fines no comerciales de la industria, área científica y medicina. Dentro de esta banda también se encuentran todas las redes WIFI que usamos a diario. En concreto funcionan a 2,4GHz.
@@ -30,6 +33,7 @@ Dentro del espectro electromágnético encontramos diferentes tipos de señales 
 Hay 3 clases de bluetooth que nos indican la máxima potencia a la que emiten y por tanto la distancia máxima que podrán alcanzar:
 
 ![](img/Captura_de_pantalla_2015-04-03_a_las_17.09.30.png)
+
 También es muy importante la velocidad a la que pueden enviarse los datos con este protocolo:
 
 ![](img/Captura_de_pantalla_2015-04-03_a_las_17.10.31.png)
@@ -45,6 +49,14 @@ Recuerda que:
 ¿Cuantos ciclos por segundo tendrán las ondas que están en la Banda ISM?
 
 ¿Cuál es el periodo de esas ondas?
+
+%accordion%Solución%accordion%
+
+a)2.4G
+
+b) λ=c/f= 12.5cm
+
+%/accordion%
 
 # ¿Te atreves a calcularlo...?
 

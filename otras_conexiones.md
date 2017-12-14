@@ -3,8 +3,9 @@
 
 Para la comunicación en una dirección:
 
-![](img/img0.1.png)
- [  maestro(izquierda)-&gt;esclavo(derecha)  ] sólo necesitamos 1 conexión:
+![](img/m5img0.1.png)
+ 
+_maestro(izquierda) -> esclavo(derecha)_ sólo necesitamos 1 conexión:
 
 NOTA: 
 
@@ -14,6 +15,56 @@ En este ejemplo, una de las Arduino la vamos a tener conectada al PC, por tanto,
 
 Lo puedes comprobar en la siguiente imagen:
 
-![](img/img1.png)
+![](img/m5img1.png)
+
 El programa sería el siguiente:
 
+```cpp
+///// MAESTRO
+int i=0; 
+//CREAMOS UN NUEVO PUERTO SERIE (RX, TX)
+SoftwareSerial Serie2(10,11); 
+void setup()
+{ pinMode(13,OUTPUT);
+  Serial.begin(9600);          //Inicializa puerto estándar
+  Serie2.begin(9600);         //Inicializa nuevo puerto
+  digitalWrite(13,LOW);
+}
+void loop()
+{ Serie2.write("r");
+  delay(3000);
+  Serie2.write("l");
+  delay(3000);
+}
+////////////////////esclavo
+void setup()
+
+{ pinMode(13,OUTPUT);
+  Serial.begin(9600);
+}
+void loop()
+
+{ while (Serial.available())
+   {
+      //Guardamos en la variable dato el valor leido
+       char dato= Serial.read();
+       //Comprobamos el dato
+       switch(dato)
+       {//Si recibimos una 'r' ...
+         case 'r':
+         {for(int i=0; i<20 i++)
+               digitalWrite(13,HIGH);
+               delay(80);
+               digitalWrite(13,LOW);
+               delay(80);}
+           break;
+         }
+         case 'l':
+         {for(int i=0; i<10 i++)
+               digitalWrite(13,HIGH);
+               delay(200);
+               digitalWrite(13,LOW);
+               delay(200);}
+           break;
+}}}}
+```

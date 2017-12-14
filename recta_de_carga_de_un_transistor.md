@@ -6,10 +6,13 @@ Se trata de comprobar de forma práctica el efecto de amplificación de corrient
  La siguiente expresión se corresponde con la ecuación de la recta de carga: 
 
 ![](img/Captura_de_pantalla_2015-05-25_a_las_12.24.34.png)
+
 Para dibujar esta recta sobre la curva característica determinaremos primero sus extremos (IC = 0 y VCE = 0):
 
 ![](img/Captura_de_pantalla_2015-05-25_a_las_12.26.41.png)
+
 Te proponemos realizar los cálculos teóricos y dibujar la recta de carga en una gráfica Ic (eje y) y Vce (eje x) y sobre esta gráfica representar los puntos Ic Vce que has medido experimentalmente, utilizando las fórmulas
+
 
 Te puede salir una cosa así:
 
