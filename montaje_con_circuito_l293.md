@@ -9,7 +9,7 @@ El CI L293 tiene las siguientes características:
 - Proporciona 1A a los motores (en total)  y permite cambiar el sentido de giro.
 - Utiliza un puente en H que funciona según se observa en las figuras (internamente utiliza transistores para conmutar*) :
 
-![](img/461px-H_bridge.svg.png)
+![](img/461px-H_bridge.png)
 
 Modos de operación para invertir el sentido de giro:
 
