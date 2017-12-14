@@ -23,5 +23,7 @@ Mira la diferencia con un servo de rotación continúa, fíjate como:
 - Un valor intermedio es menos velocidad (se ve el ejemplo 80º y 100º)
 - Si tiene deriva, (cosa frecuente) hay un potenciómetro para ajustar.
 
-https://www.youtube.com/watch?v=Z-5SerXmRY0&feature=youtu.be
+{% youtube %}https://www.youtube.com/watch?v=Z-5SerXmRY0&feature=youtu.be{% endyoutube %}
+
+
 
