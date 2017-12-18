@@ -108,4 +108,6 @@ void loop()
   }
 }
 ```
+# FINNNN
+Esperamos que este curso, no sólo te has formado, sino que has disfrutado. Cualquier sugerencia, cambio, propuesta, fallos... puedes hacerlo en [www.catedu.es](https://www.catedu.es) en la sección de Tickets ¡¡gracias!!!
 
