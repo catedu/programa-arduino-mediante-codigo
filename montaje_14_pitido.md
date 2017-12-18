@@ -33,7 +33,7 @@ El resultado es :
 Bueno, vamos a conectarlo DIRECTAMENTE a D6 (el otro extremo a GND) no es muy conveniente pero a ver el resultado (con el mismo código):
 
 {% youtube %}https//www.youtube.com/watch?v=wcJBEfr8hNo?rel=0{% endyoutube %}
-## Premio de un pokemon quien conteste bien a esta pregunta:
+## Premio de un jamón de Teruel quien conteste bien a esta pregunta:
 
 ¿Cuál suena más?
 
