@@ -2,7 +2,7 @@
 # Montaje 8 Medición T y H por puerto serie
 
 ### Programa con DHT11:
-
+Te proponemos este programa:
 ```cpp
 #include "DHT.h"
 #define DHTPIN 2   
@@ -31,10 +31,10 @@ void loop() {
 }
 ```
 
-El resultado se puede ver en este vídeo, simplemente soplando el vaho pasamos de 20% de humedad y 22ºC a 93% y 24ºC.
+El resultado se puede ver en este vídeo, simplemente soplando nuestro vaho pasamos de 20% de humedad y 22ºC a 93% y 24ºC.
 
-Si lo hacéis con niños, enseguida se les ocurre ponerlo en el sobaco ;)
-
+_Advertencia: Si lo hacéis con niños, enseguida se les ocurre ponerlo en el sobaco, menos mal que solo son 5V ;)
+_
 {% youtube %}https//www.youtube.com/watch?v=gLxdSaxOJbY?rel=0{% endyoutube %}
 
 ### Programa con DHT12
