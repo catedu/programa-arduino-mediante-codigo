@@ -11,6 +11,7 @@ Igual que en el caso anterior, pero vamos a utilizar un LED de la shield de Edub
 
 El programa es igual que el anterior, pero cambiando el número del pin:
 
+{% raw %}
 
 <pre>
 <font color="#00979c">void</font> <font color="#5e6d03">setup</font><font color="#000000">(</font><font color="#000000">)</font> <font color="#000000">{</font> 
@@ -27,11 +28,9 @@ El programa es igual que el anterior, pero cambiando el número del pin:
 <font color="#000000">}</font>
 
 
-</pre>``
-```
+</pre>
 
-```
-
+{% endraw %}
 
 
 {% youtube %}https//www.youtube.com/watch?v=UHttCda49Vo?rel=0{% endyoutube %}
