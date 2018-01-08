@@ -9,6 +9,8 @@ En este curso intenta hacer un barrido por los fundamentos de la electrónica y 
 5. **LAS COMUNICACIONES** en especial con un Smartphone tiene un buen componente innovador y motivador.
 6. **CONTROL Y ROBÓTICA **donde dejaremos la puerta abierta al mundo de posibilidades a los pequeños inventores.
 
+En este curso se utiliza una Shield llamada _**EDUBASICA**_ pero sin esta Shield el curso se puede hacer, aunque con más cableado y electrónica.
+
 ![](/assets/import.png)
 
 Se busca una metodología **totalmente práctica **sin conocimientos previos, pero para simplificar el cableado engorroso de circuitos complejos se utilizará un escudo: la **edubásica**, aunque se puede prescindir de ella en prácticas sencillas.
