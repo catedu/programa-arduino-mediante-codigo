@@ -17,6 +17,9 @@ Disponemos de un repositorio de github para la descarga de los esquemas de Edub�
 
 - [Esquema ](ESQUEMA.png) (png - 28,84 <abbr title="KiloBytes" lang="en">KB</abbr>)
 - [Placa PCB](PCB.png) (png - 76,00 <abbr title="KiloBytes" lang="en">KB</abbr>)
+- [Prácticas](https://github.com/clubroboticagranada/recursos/tree/master/edubasica)
+- [Proyectos](https://github.com/leobotmanuel/ProgramandoObjetosTecnologicos)
+
 
 
 
