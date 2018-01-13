@@ -15,5 +15,5 @@ En este curso se utiliza una Shield llamada _**EDUBASICA**_ pero sin esta Shield
 
 Se busca una metodología **totalmente práctica **sin conocimientos previos, pero para simplificar el cableado engorroso de circuitos complejos se utilizará un escudo: la **edubásica**, aunque se puede prescindir de ella en prácticas sencillas.
 
-![](/assets/edubasica.jpeg)
+![](/assets/edubasica.jpeg)![](/assets/HERALDO-jpg.jpg)
 
