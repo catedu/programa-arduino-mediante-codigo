@@ -7,16 +7,17 @@
 
 + información en [http://www.practicasconarduino.com](http://www.practicasconarduino.com/edubasica/)
 
-![](img/EdubasicaQuickStartGuide-2.png)
-[[+Grande](tarjeta.jpg) (jpg - 335,78 <abbr title="KiloBytes" lang="en">KB</abbr>) ]
+![](/assets/EdubasicaQuickStartGuide-2.jpg)
+
+[+Grande (jpg - 335,78 )](http://aularagon.catedu.es/materialesaularagon2013/Arduino-codigo/1_Fundamentos_arduino_y_Edubasica/tarjeta.jpg)
 
 
 **ESQUEMAS Y PCB PARA SU FABRICACIÓN:**
 
 Disponemos de un repositorio de github para la descarga de los esquemas de Edubásica [https://github.com/jorgeroden/edubasica](https://github.com/jorgeroden/edubasica). En él se incluyen las posibles modificaciones de la placa junto a los programas de test. En cualquier caso los esquemas para la última versión, en el momento de redactar este manual, se adjuntan aquí.
 
-- [Esquema ](ESQUEMA.png) (png - 28,84 <abbr title="KiloBytes" lang="en">KB</abbr>)
-- [Placa PCB](PCB.png) (png - 76,00 <abbr title="KiloBytes" lang="en">KB</abbr>)
+- [Esquema (.png) ](http://aularagon.catedu.es/materialesaularagon2013/Arduino-codigo/1_Fundamentos_arduino_y_Edubasica/ESQUEMA.png)
+- [Placa PCB (.png)](http://aularagon.catedu.es/materialesaularagon2013/Arduino-codigo/1_Fundamentos_arduino_y_Edubasica/PCB.png)
 - [Prácticas](https://github.com/clubroboticagranada/recursos/tree/master/edubasica)
 - [Proyectos](https://github.com/leobotmanuel/ProgramandoObjetosTecnologicos)
 
