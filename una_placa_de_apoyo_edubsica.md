@@ -16,8 +16,8 @@
 
 Disponemos de un repositorio de github para la descarga de los esquemas de Edubásica [https://github.com/jorgeroden/edubasica](https://github.com/jorgeroden/edubasica). En él se incluyen las posibles modificaciones de la placa junto a los programas de test. En cualquier caso los esquemas para la última versión, en el momento de redactar este manual, se adjuntan aquí.
 
-- [Esquema (.png) ](http://aularagon.catedu.es/materialesaularagon2013/Arduino-codigo/1_Fundamentos_arduino_y_Edubasica/ESQUEMA.png)
-- [Placa PCB (.png)](http://aularagon.catedu.es/materialesaularagon2013/Arduino-codigo/1_Fundamentos_arduino_y_Edubasica/PCB.png)
+- [Esquema](http://aularagon.catedu.es/materialesaularagon2013/Arduino-codigo/1_Fundamentos_arduino_y_Edubasica/ESQUEMA.png)
+- [Placa PCB](http://aularagon.catedu.es/materialesaularagon2013/Arduino-codigo/1_Fundamentos_arduino_y_Edubasica/PCB.png)
 - [Prácticas](https://github.com/clubroboticagranada/recursos/tree/master/edubasica)
 - [Proyectos](https://github.com/leobotmanuel/ProgramandoObjetosTecnologicos)
 
