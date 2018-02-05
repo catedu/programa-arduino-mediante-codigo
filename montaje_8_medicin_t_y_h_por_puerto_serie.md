@@ -1,5 +1,5 @@
 
-# Montaje 8 Medición T y H por puerto serie
+# Montaje 9 Medición T y H por puerto serie
 
 ### Programa con DHT11:
 Te proponemos este programa:
