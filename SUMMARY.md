@@ -112,7 +112,7 @@
   * [Medida de la temperatura y la humedad ambiente.](medida_de_la_temperatura_y_la_humedad_ambiente.md)
   * [Libreria DHT11.h](libreria_dht11h.md)
   * [Libreria DHT12.h](libreria_dht12h.md)
-  * [Montaje 8 Medición T y H por puerto serie](montaje_8_medicin_t_y_h_por_puerto_serie.md)
+  * [Montaje 9 Medición T y H por puerto serie](montaje_8_medicin_t_y_h_por_puerto_serie.md)
   * [Processing](processing.md)
   * [Montaje 9 Representación gráfica de medidas con Processing.](montaje_9_representacin_grfica_de_medidas_con_processing.md)
   * [dweet.io](dweetio.md)
