@@ -27,6 +27,24 @@ Estos son los pines que hay que activar:
 |Dirección 1|8|12|
 |Dirección 2|9|13|
 
+La tabla de verdad es muy fácil:
+
+**MOTOR A**
+
+|Pin 10|Pin 8|Pin 9|MotorA|
+|--|--|--|--|
+|HIGH|HIGH|LOW|giro|
+|HIGH|LOW|HIGH|giro contrario|
+|LOW|X|X|STOP|
+
+**MOTOR B**
+
+|Pin 11|Pin 12|Pin 13|MotorB|
+|--|--|--|--|
+|HIGH|HIGH|LOW|giro|
+|HIGH|LOW|HIGH|giro contrario|
+|LOW|X|X|STOP|
+
 
 ##Sin Edubásica
 
