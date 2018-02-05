@@ -55,3 +55,7 @@ void loop(){
 
 
 %/accordion%
+
+##Reto
+¿Que tal si en vez de activarse con el botón, que simplemente cuando este oscuro (utiliza el valor del pin analógico 2 = LDR), se ponga a bailar? 
+

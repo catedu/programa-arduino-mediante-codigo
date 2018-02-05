@@ -105,6 +105,7 @@
     * [Sin Edubásica](sin_edubsica.md)
     * [Chasis coche](montaje_6_giro_motor.md)
     * [Montaje 6 Coche loco](montaje-6-coche-loco.md)
+    * [Montaje 7 Coche teledirigido](montaje-7-coche-teledirigido.md)
 * [Sensor de ultrasonidos](sensor_de_ultrasonidos.md)
   * [Montaje 7: Medición de la distancia](montaje_7_medicin_de_la_distancia.md)
 * [Control de temperatura y humedad](control_de_temperatura_y_humedad.md)
