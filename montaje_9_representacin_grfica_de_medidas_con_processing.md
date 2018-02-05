@@ -1,5 +1,5 @@
 
-# Montaje 9 Representación gráfica de medidas con Processing.
+# Montaje 10 Representación gráfica de medidas con Processing.
 
 Una vez obtenidos los datos de temperatura y humedad a través del sensor DHT11 desde Arduino, enviamos, a través del puerto serie, estos datos al PC, donde tenemos ejecutando un programa en Processing que está "escuchando" el puerto serie, obteniendo los datos y representándolos en pantalla. Simultáneamente guardamos los datos en un archivo de texto que posteriormente podremos analizar en una hoja de cálculo.
 

@@ -1,5 +1,5 @@
 
-# Montaje 11 detección linea blanca
+# Montaje 12 detección linea blanca
 
 El problema del CNY70 es que tiene los pines muy juntos que no se puede poner enmedio de la placa protoboard, tenemos pues que utlizar dos opciones:
 

@@ -1,5 +1,5 @@
 
-# Montaje 12 Barrera I por Bluetooth
+# Montaje 13 Barrera I por Bluetooth
 
 Conectamos la Shield de Edubásica, el módulo Bluetooth en el zócalo correspondiente [tal y como vimos](mdulo_bluetooth.html), con piezas de lego fijamos el servo y le añadimos un cartón que simule una barrera. El pin del servo lo conectaremos en el 7 de Edubásica. La configuración de los ángulos de abierto y cerrado depende en qué posición atornillamos la barrera, luego lo mejor es [probarlo con el programa que test que vimos](montaje_1_testea_tu_servo.html), y en nuestro caso nos sale que 40º es abierto y 140º es cerrado.
 

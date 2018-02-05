@@ -1,5 +1,5 @@
 
-# Montaje 13 Barrera II con sensores US
+# Montaje 14 Barrera II con sensores US
 
 Ahora le añadimos dos sensores de ultrasonidos, si detecta el coche a la entrada de la barrera, se enciende la luz amarilla en espera que el coche pueda abrir con el móvil.
 
