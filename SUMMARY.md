@@ -107,7 +107,7 @@
     * [Montaje 6 Coche loco](montaje-6-coche-loco.md)
     * [Montaje 7 Coche teledirigido](montaje-7-coche-teledirigido.md)
 * [Sensor de ultrasonidos](sensor_de_ultrasonidos.md)
-  * [Montaje 7: Medición de la distancia](montaje_7_medicin_de_la_distancia.md)
+  * [Montaje 8: Medición de la distancia](montaje_7_medicin_de_la_distancia.md)
 * [Control de temperatura y humedad](control_de_temperatura_y_humedad.md)
   * [Medida de la temperatura y la humedad ambiente.](medida_de_la_temperatura_y_la_humedad_ambiente.md)
   * [Libreria DHT11.h](libreria_dht11h.md)
