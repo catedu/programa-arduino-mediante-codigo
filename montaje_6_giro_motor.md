@@ -18,6 +18,16 @@ Las conexiones son muy sencillas:
 
 ![](/assets/2018-02-05 12_57_31-Documento1 - Microsoft Word.png)
 
+###Ordenes
+Estos son los pines que hay que activar:
+
+|Orden|MotorA|MotorB|
+|--|--|--|
+|Velocidad|10|11|
+|Dirección 1|8|12|
+|Dirección 2|9|13|
+
+
 ##Sin Edubásica
 
 Simplemente se complica un poco más, habría que añadir el L298N tal y como se explica en [la página de Luis LLamas](https://www.luisllamas.es/arduino-motor-corriente-continua-l298n/)
