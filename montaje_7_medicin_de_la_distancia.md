@@ -1,5 +1,5 @@
 
-# Montaje 7: Medición de la distancia
+# Montaje 8: Medición de la distancia
 
 Este tipo de sensores también nos permite conocer la distancia a un objeto. Es más preciso que el de infrarrojos visto en la sección anterior y su rango de funcionamiento también es mayor. Funciona desde los 2cm hasta los 3 metros. 
 
