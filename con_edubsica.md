@@ -15,7 +15,7 @@ Es muy fácil, podemos conectar hasta dos motores en los pines dispuestos para e
 - Para el motor B el control de velocidad por el pin 11 y las direcciones por 12 y 13.
 - Interruptor en ON
 
-![](http://localhost:51235/6_Control_robotica/resources/img4.png)
+![](img/img4.png)
 
 Conectando los dos terminales del motor a la clema del transistor de Edubásica, también podríamos hacerlo funcionar enviando un nivel HIGH al pin digital 6 de Arduino.  Este pin (D6) está conectado directamente a la base del transistor de Edubásica. La desventaja respecto al CI L293 es que, en este caso, no podríamos cambiar el sentido de giro.
 
