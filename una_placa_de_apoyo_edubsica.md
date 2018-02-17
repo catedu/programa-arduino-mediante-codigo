@@ -21,5 +21,7 @@ Disponemos de un repositorio de github para la descarga de los esquemas de Edub√
 - [Pr√°cticas](https://github.com/clubroboticagranada/recursos/tree/master/edubasica)
 - [Proyectos](https://github.com/leobotmanuel/ProgramandoObjetosTecnologicos)
 
+<a class="twitter-timeline" href="https://twitter.com/EduBasicaShield?ref_src=twsrc%5Etfw">Tweets by EduBasicaShield</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 
 
