@@ -1,17 +1,19 @@
 
-# Montaje 5: Control de la intensidad de iluminación de un LED EDUBASICA
+# Montaje 5: Control de la intensidad de iluminación de un LED 
 
 Como ejemplo práctico de la señal PWM vamos a realizar un control de iluminación  sobre un diodo led.
 
-### En una protoboard
+## Sin EDUBASICA
 
-- El circuito formado por el potenciómetro conectado a la entrada analógica A0.
+En una protoboard montamos el circuito formado por el **potenciómetro **conectado a la entrada analógica A0.
 
 ![](img/Captura_de_pantalla_2015-05-19_a_las_14.22.42.png)
-- El circuito conectado al pin digital D3, utilizado como salida PWM, de esta manera nos va a permitir variar la luminosidad del LED.
+
+y también montamos el circuito conectado al pin digital D3, utilizado como salida PWM, de esta manera nos va a permitir variar la luminosidad del LED.
 
 ![](img/Captura_de_pantalla_2015-05-19_a_las_14.22.51.png)
-### En la shield EDUBASICA
+
+## CON EDUBÁSICA
 
 En este caso ya tiene integrado un potenciómetro conectado a la entrada A0.
 
@@ -20,6 +22,8 @@ En este caso ya tiene integrado un potenciómetro conectado a la entrada A0.
 Y vamos a utilizar de salida el diodo verde conectado a D3 y a una resistencia ya integrado en EDUBASICA:
 
 ![Esquema de LEDs en EDUBASICA](img/m2img5.1.png)
+
+## Continuamos... 
 
 Vamos a ver una pequeña demostración:
 
@@ -33,7 +37,7 @@ Cargamos el programa ejemplo, en la placa Arduino y teniendo acoplada la placa E
 
 ![](img/Captura_de_pantalla_2015-05-19_a_las_21.17.31.png)
 
-```cpp
+```cpp+lineNumbers:true
 /*Lee la entrada analogica A0, mapea el resultado al rango de 0 a 255 
 y utiliza el resutado para poner la anchura del pulso PWM.
  Tambien se escribe en el monitor serie el valor binario de A0 y

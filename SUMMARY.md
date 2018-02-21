@@ -24,9 +24,9 @@
   * [2.2.3 Resistencias pull-up y pull-down](resistencias_pullup_y_pulldown.md)
   * [2.2.4 Montaje 3: SEMÁFORO](montaje_3_semforo_edubasica.md)
   * [2.2.5 Montaje 4: Pulsador](montaje_4_pulsador_edubasica.md)
-* [Conexiones analógicas](conexiones_analgicas.md)
-* [Un caso especial: Señales PWM](un_caso_especial_seales_pwm.md)
-  * [Montaje 5: Control de la intensidad de iluminación de un LED EDUBASICA](montaje_5_control_de_la_intensidad_de_iluminacin_de_un_led_edubasica.md)
+* [2.3 Conexiones analógicas](conexiones_analgicas.md)
+* [2.4 Un caso especial: Señales PWM](un_caso_especial_seales_pwm.md)
+  * [2.4.1 Montaje 5: Control de la intensidad de iluminación de un LED](montaje_5_control_de_la_intensidad_de_iluminacin_de_un_led_edubasica.md)
 * [Créditos](crditos1.md)
 
 ## 3. Electrónica Analógica
