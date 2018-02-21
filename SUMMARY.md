@@ -31,8 +31,8 @@
 
 ## 3. Electrónica Analógica
 
-* [Electrónica analógica](index2.md)
-* [Resistencias](resistencias.md)
+* [3.1 Electrónica analógica](index2.md)
+* [3.2 Resistencias](resistencias.md)
   * [Divisor de tensión](divisor_de_tensin.md)
   * [Montaje 1: Resistencias en serie](montaje_1_resistencias_en_serie.md)
   * [Montaje 2: Resistencias en paralelo.](montaje_2_resistencias_en_paralelo.md)
