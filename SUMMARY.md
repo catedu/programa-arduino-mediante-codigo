@@ -39,7 +39,7 @@
   * [3.2.4 Montaje 3: Potenciómetro](montaje_3_potencimetro_edubasica.md)
   * [3.2.5 Montaje 4: Mapeo Potenciometro](montaje_4_mapeo_potenciometro_edubasica.md)
   * [3.2.6 Mapeo de valores](mapeo_de_valores.md)
-  * [Montaje 5: LDR](montaje_5_ldr_con_edubasica.md)
+  * [3.2.7 Montaje 5: LDR](montaje_5_ldr_con_edubasica.md)
 * [Diodos](diodos.md)
   * [Montaje 6 Regular intesidad de un LED con EDUBASICA](montaje_6_regular_intesidad_de_un_led_con_edubasica.md)
   * [Montaje 7 Estudio de la tensión umbral de un LED](montaje_7_estudio_de_la_tensin_umbral_de_un_led.md)
