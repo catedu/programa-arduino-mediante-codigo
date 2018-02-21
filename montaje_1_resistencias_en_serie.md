@@ -16,6 +16,8 @@ Usa la protoboard para intercalar, entre los extremos del cable azul y negro, la
 
 Igual, simplemente que A2, Vin y GND lo tienes en el mismo ARDUINO
 
+![](/assets/2018-02-21 18_16_54-Circuits Copy of Copy of LED directo _ Tinkercad.png)
+
 ##Continuamos...
 
 El programa que hay que ejecutar en el arduino es este
