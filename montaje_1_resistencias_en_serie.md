@@ -2,6 +2,8 @@
 
 Elige cuatro resistencias de cualquier valor para los montajes en serie pero procura que sean de valores muy distintos. Para ello utiliza[ la tabla con los códigos de colores ](https://es.wikipedia.org/wiki/Resistor)o bien mide los valores directamente con un polímetro \(medida de ohmios\).
 
+##Con EDUBÁSICA
+
 Monta el siguiente circuito divisor de tensión:
 
 ![](img/img0.5.png)
@@ -10,9 +12,15 @@ El cable rojo es la Vin \(5V\) y el negro GND. El cable azul es la salida Vout q
 
 Usa la protoboard para intercalar, entre los extremos del cable azul y negro, las resistencias que elegiste y prueba distintas combinaciones en serie quitando y poniendo resistencias. Debes observar que la luminosidad del led varía.
 
+##SIN EDUBÁSICA
+
+Igual, simplemente que A2, Vin y GND lo tienes en el mismo ARDUINO
+
+##Continuamos...
+
 El programa que hay que ejecutar en el arduino es este
 
-```cpp
+```cpp+lineNumbers:true
 //Conectaremos resistencias en serie entre Vout=A2 y GND
 
 void setup() {                 
