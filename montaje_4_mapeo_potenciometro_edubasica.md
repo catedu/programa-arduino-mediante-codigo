@@ -1,6 +1,6 @@
 
 # Montaje 4: Mapeo Potenciometro
-Vamos LEER LOS VALORES EN PANTALLA DEL POTENCIÓMETRO
+Vamos LEER LOS VALORES DEL POTENCIÓMETRO EN PANTALLA
 
 ##SIN EDUBÁSICA
 Conectamos la salida de un potenciómetro a A0
