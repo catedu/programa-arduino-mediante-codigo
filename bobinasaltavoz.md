@@ -8,5 +8,3 @@ _¿Sabías que a medida que creces el margen de agudos \(20kHz\) baja?_
 
 ![](img/img0.10.png)
 
-Esto es una prueba
-
