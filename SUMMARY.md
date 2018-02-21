@@ -35,7 +35,7 @@
 * [3.2 Resistencias](resistencias.md)
   * [3.2.1 Divisor de tensión](divisor_de_tensin.md)
   * [3.2.2 Montaje 1: Resistencias en serie](montaje_1_resistencias_en_serie.md)
-  * [Montaje 2: Resistencias en paralelo.](montaje_2_resistencias_en_paralelo.md)
+  * [3.2.3 Montaje 2: Resistencias en paralelo.](montaje_2_resistencias_en_paralelo.md)
   * [Montaje 3: Potenciómetro EDUBASICA](montaje_3_potencimetro_edubasica.md)
   * [Montaje 4: Mapeo Potenciometro EDUBASICA](montaje_4_mapeo_potenciometro_edubasica.md)
   * [Mapeo de valores](mapeo_de_valores.md)
