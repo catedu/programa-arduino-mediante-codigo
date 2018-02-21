@@ -1,25 +1,36 @@
 
-# Montaje 4: Pulsador EDUBASICA
+# Montaje 4: Pulsador
 
 Hasta ahora hemos visto como programar Arduino para que ejecute repetitivamente acciones, pero este actuaba de manera autónoma y nosotros sólo podíamos observar.  Pero podemos interactuar con Arduino, por ejemplo, realizando una acción cuando activamos un pulsador. .
 
-En este ejemplo, vamos a encender un led cuando actuamos sobre el pulsador. Por sencillez usaremos EduBásica. (también puedes hacer el montaje en una protoboard). 
+En este ejemplo, vamos a encender un led cuando actuamos sobre el pulsador. 
 
-Vamos a verlo en acción:
+## sin EDUBASICA
 
-{% youtube %}https://www.youtube.com/watch?v=lpTU2J2xjTE{% endyoutube %}
-
-El pin 2 corresponde al pulsador y el pin 3 al led verde, solo nos queda cargar el programa y probar. Aparece un comando nuevo “**digitalRead(buttonPin)**” . Retorna el valor del pin que se ha configurado como entrada y al igual que en el caso de los pines que se configuran como salida, puede tener dos valores HIGH y LOW.
+Utilizamos por ejemplo el pin 2 corresponde al pulsador y el pin 3 al led verde, solo nos queda cargar el programa y probar. 
 
 ![Esquema del pulsador en EDUBASICA](img/m2img1.png)
 
 ![Esquema eléctrico del pulsador conectado al micro del Arduino](img/m2img2.2.png)
 
+
+## con EDUBASICA
+
+Con la misma estructura (D2 es donde está el pulsador en EDUBASICA y D3 el LED VERDE) no hace falta realizar ningún cableado.
+
+Por sencillez usaremos EduBásica en las capturas. Vamos a verlo en acción:
+
+{% youtube %}https://www.youtube.com/watch?v=lpTU2J2xjTE{% endyoutube %}
+
+## Continuamos...
+
+Aparece un comando nuevo “**digitalRead(buttonPin)**” . Retorna el valor del pin que se ha configurado como entrada y al igual que en el caso de los pines que se configuran como salida, puede tener dos valores HIGH y LOW.
+
 Si es HIGH significa que este pin está unido a la señal de 5v, si es LOW significa que está unido a 0v.
 
  ¿Por qué cuando el pulsador está en OFF D2 está a 0V? espero que esta cuestión la has resuelto [en la sección anterior.](resistencias_pullup_y_pulldown.html)
 
-```cpp
+```cpp+lineNumbers:true
 const int buttonPin = 2;     // Pin del pulsador
 const int ledPin =  3;      // Pin del Led
 
@@ -46,7 +57,7 @@ void loop(){
 
 Otra opción es utilizar este programa donde se ve más visual:
 
-```cpp
+```cpp+lineNumbers:true
 // Indicamos que pin corresponde con cada LED:
 int ledVerde = 5;
 int ledAmarillo = 4;
