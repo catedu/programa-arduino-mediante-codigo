@@ -47,7 +47,17 @@ Hay también otro tipo de "shields" que proporcionan funciones como conexión Et
 
 Algunos ejemplos:
 
+#### SHIELDS EDUCATIVAS
+
+La shield de este curso **EDUBASICA**
+
 ![](img/edubasica01.jpg)
+
+La shield de [otro curso en CATEDU](https://catedu.gitbooks.io/programa-arduino-con-echidna/content/): **ECHIDNA**
+
+![](https://catedu.gitbooks.io/programa-arduino-con-echidna/content/images/image1.png)
+
+#### OTRAS SHIELD COMERCIALES
 
 ![](img/1762428107_baf60121e2_o.jpg)
 
