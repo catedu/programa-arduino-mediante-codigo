@@ -19,7 +19,7 @@
 
 * [Montajes básicos con Arduino](index1.md)
 * [Conexiones digitales](conexiones_digitales.md)
-  * [Montaje 1: LED parpadeante](montaje_1_led_parpadeante.md)
+  * [2.2.1 Montaje 1: LED parpadeante SIN EDUBASICA](montaje_1_led_parpadeante.md)
   * [Montaje 2: LED EDUBASICA parpadeante](montaje_2_led_edubasica_parpadeante.md)
   * [Resistencias pull-up y pull-down](resistencias_pullup_y_pulldown.md)
   * [Montaje 3: Semáforo EDUBASICA](montaje_3_semforo_edubasica.md)

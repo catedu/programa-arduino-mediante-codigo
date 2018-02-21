@@ -1,5 +1,5 @@
 
-# Montaje 1: LED parpadeante
+# Montaje 1: LED parpadeante sin EDUBASICA
 
 Vamos a controlar el encendido y apagado de un led conectado al pin13 de Arduino. 
 
