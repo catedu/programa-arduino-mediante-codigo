@@ -1,9 +1,18 @@
 
-# Montaje 3: Semáforo EDUBASICA
+# Montaje 3: SEMAFORO CON EDUBASICA
 
 Montaremos un semáforo con los tres leds de la EduBásica. La EduBásica es opcional y podemos montar el circuito correspondiente con una protoboard, pero EduBásica nos ahorra trabajo. 
 
-Necesitamos añadir una resistencia entre el pin y el led, para evitar que el led se funda. EduBásica ya lleva estas resistencias integradas por lo que podemos ir directamente al montaje.
+# Montaje 3: SEMÁFORO SIN EDUBASICA
+
+Necesitamos añadir una resistencia entre el pin y el led, para evitar que el led se funda. 
+
+![](img/m2img0.png)
+
+en este caso tienes libertad de utilizar D3 D4 D5 o otros que quieras.
+
+## Continuamos ...
+Como EduBásica ya lleva estas resistencias integradas las capturas las hacemos con ella, no hay que hacer nada.
 
 Vamos a ver el efecto que queremos realizar:
 
