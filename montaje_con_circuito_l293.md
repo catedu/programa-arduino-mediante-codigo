@@ -13,7 +13,7 @@ El CI L293 tiene las siguientes características:
 
 Modos de operación para invertir el sentido de giro:
 
-![](img/H_bridge_operating.svg.png)
+![](/assets/circuitoL293.png)
 
 "[H bridge operating](https://commons.wikimedia.org/wiki/File:H_bridge_operating.svg#/media/File:H_bridge_operating.svg)" by Cyril BUTTAY - own work, made using inkscape. Licensed under [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/) via [Wikimedia Commons](//commons.wikimedia.org/wiki/).
 
