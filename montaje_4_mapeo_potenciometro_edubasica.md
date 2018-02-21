@@ -1,5 +1,16 @@
 
-# Montaje 4: Mapeo Potenciometro EDUBASICA
+# Montaje 4: Mapeo Potenciometro
+Vamos LEER LOS VALORES EN PANTALLA DEL POTENCIÓMETRO
+
+##SIN EDUBÁSICA
+Conectamos la salida de un potenciómetro a A0
+
+![](/assets/2018-02-21 18_47_08-Circuits Copy of Copy of LED directo _ Tinkercad.png)
+
+##CON EDUBASICA
+No hay que hacer nada, ya está !
+
+##Continuamos ...
 
 Vamos a grabar este programa en el Arduino con Edubásica para LEER LOS VALORES EN PANTALLA DEL POTENCIÓMETRO
 
