@@ -1,7 +1,9 @@
 
 # Entorno de programación
 
-El entorno de desarrollo Arduino (IDE,  Integrated development environment) está constituido por un editor de texto para escribir el código, un área de mensajes, una consola de texto, una barra de herramientas con botones para las funciones comunes, y una serie de menús. Permite la conexión, por USB, con el hardware de Arduino para cargar los programas y comunicarse con ellos. 
+El entorno de desarrollo Arduino IDE (IDE,  Integrated development environment)(aquí [https://www.arduino.cc/en/Main/Software](https://www.arduino.cc/en/Main/Software) para descargártelo) está constituido por un editor de texto para escribir el código, un área de mensajes, una consola de texto, una barra de herramientas con botones para las funciones comunes, y una serie de menús. Permite la conexión, por USB, con el hardware de Arduino para cargar los programas y comunicarse con ellos. 
+
+>OJO, existe la versión web del editor [https://create.arduino.cc/editor ](https://create.arduino.cc/editor)para trabajar online, puedes probarlo, pero seguimos recomendando la versión de escritorio por ser más rápida, no obstante es una buena solución si trabajas en varios equipos y quieres que tus proyectos estén disponibles.
 
 Arduino utiliza para escribir el código fuente o programa de aplicación lo que denomina "sketch" (programa). Estos programas son escritos en el editor de texto. Existe la posibilidad de cortar/pegar y buscar/remplazar texto. En el área de mensajes se muestra información mientras se cargan los programas y también muestra errores. La consola muestra el texto de salida para el entorno de Arduino incluyendo los mensajes de error completos y otras informaciones. La barra de herramientas permite verificar el proceso de carga, creación, apertura y guardado de programas, y la monitorización serie: 
 
