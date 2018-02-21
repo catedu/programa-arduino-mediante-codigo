@@ -12,9 +12,7 @@ No hay que hacer nada, ya está !
 
 ##Continuamos ...
 
-Vamos a grabar este programa en el Arduino con Edubásica para LEER LOS VALORES EN PANTALLA DEL POTENCIÓMETRO
-
-Fíjate como dividimos los valores del potenciómetro A0 (que va desde 0 a 1024) entre 204.6 para convertirlos dentro del rango de 0-5V (1024/5=204.6):
+Fíjate como **dividimos los valores** del potenciómetro A0 (que va desde 0 a 1024) **entre 204.6** para convertirlos dentro del rango de 0-5V ( 1024/5=204.6 ) :
 
 ```cpp+lineNumbers:true
 float val = 0;
