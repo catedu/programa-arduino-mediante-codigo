@@ -4,15 +4,15 @@
 
 ## 1. Fundamentos del Arduino
 
-* [Fundamentos de Arduino](index0.md)
-* [Información básica sobre Arduino](informacin_bsica_sobre_arduino.md)
-* [Hardware](hardware.md)
-  * [Alimentación eléctrica de Arduino](alimentacin_elctrica_de_arduino.md)
-* [Entorno de programación](entorno_de_programacin.md)
-* [Una placa de apoyo: Edubásica](una_placa_de_apoyo_edubsica.md)
-* [Simulación](simulacin.md)
-* [Un poco de orden... el pensamiento computacional](un_poco_de_orden_el_pensamiento_computacional.md)
-* [Kit de préstamo de CATEDU](kit_de_prstamo_de_catedu.md)
+* [1.1 Fundamentos de Arduino](index0.md)
+* [1.2 Información básica sobre Arduino](informacin_bsica_sobre_arduino.md)
+* [1.3 Hardware](hardware.md)
+  * [1.3.1 Alimentación eléctrica de Arduino](alimentacin_elctrica_de_arduino.md)
+* [1.4 Entorno de programación](entorno_de_programacin.md)
+* [1.5 Una placa de apoyo: Edubásica](una_placa_de_apoyo_edubsica.md)
+* [1.6 Simulación](simulacin.md)
+* [1.7 Un poco de orden... el pensamiento computacional](un_poco_de_orden_el_pensamiento_computacional.md)
+* [1.8 Kit de préstamo de CATEDU](kit_de_prstamo_de_catedu.md)
 * [Créditos](crditos.md)
 
 ## 2. Montajes básicos con Arduino
