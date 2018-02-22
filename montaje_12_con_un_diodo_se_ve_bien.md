@@ -1,9 +1,17 @@
 
 # Montaje 12: Con un diodo se ve bien
 
-Podemos insertar un diodo y se visualiza bien las zonas:
+Podemos insertar un diodo en el colector y se visualiza bien las zonas:
+
+##SIN EDUBASICA
+
+![](/assets/sin-edubasica-conledmejor.png)
+
+##CON EDUBASICA
 
 ![](img/img1.3.png)
+
+##Continuamos
 
 El programa es el mismo que el anterior y se puede ver en el vídeo las tras formas de funcionamiento del transistor. Se trata de ir variando el valor del potenciómetro R1, con el fin de conseguir que el diodo led pase de estar apagado (corte), a encendido en diferentes grados de luminosidad, llegando finalmente hasta su máxima luminosidad (saturación).
 
@@ -16,7 +24,7 @@ Mediante un polímetro se pueden medir los valores de tensión. Para medir estas
 
 ![](img/img0.4.png)
 
-A nosotros nos ha salido [resultados](calculo_hfe.xlsx) (xlsx - 15,87 <abbr title="KiloBytes" lang="en">KB</abbr>)
+A nosotros nos ha salido [resultados](http://aularagon.catedu.es/materialesaularagon2013/Arduino-codigo/3_Electronica_analogica/calculo_hfe.xlsx) (xlsx - 15,87 <abbr title="KiloBytes" lang="en">KB</abbr>)
 
 ![](img/img2.3.png)
 
