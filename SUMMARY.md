@@ -45,7 +45,7 @@
   * [3.3.2 Montaje 7 Estudio de la tensión umbral de un LED](montaje_7_estudio_de_la_tensin_umbral_de_un_led.md)
 * [3.4 Condensadores](condensadores.md)
   * [3.5 Montaje 8: Carga de un condensador](montaje_8_carga_de_un_condensador.md)
-  * [Montaje 9: Descarga del condensador](montaje_9_descarga_del_condensador.md)
+  * [3.6 Montaje 9: Descarga del condensador](montaje_9_descarga_del_condensador.md)
   * [Actividad](actividad.md)
 * [Transistores](transistores.md)
   * [En EDUBASICA](en_edubasica.md)
