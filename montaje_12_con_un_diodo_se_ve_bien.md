@@ -17,6 +17,8 @@ El programa es el mismo que el anterior y se puede ver en el vídeo las tras for
 
 La mayor o menor intensidad del diodo led nos indicará la mayor o menor corriente que fluye por el colector (IC) al variar la corriente de base (IB).
 
+##Resultados
+
 {% youtube %}https//www.youtube.com/watch?v=oLuCdvOg0co?rel=0{% endyoutube %}
 
 
