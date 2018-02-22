@@ -1,7 +1,18 @@
+#CONEXIONES
+Vamos a definir las conexiones para los siguientes montajes del transistor, utilizaremos tenemos un[ TIP121 o TP120 es un transistor NPN tipo "Darlington" ](https://alltransistors.com/pdfview.php?doc=tip121.pdf&amp;dire=_fairchild_semi)es decir, está integrado por dos transistores interiormente.
 
-# En EDUBASICA
+##SIN EDUBASICA
+Realizaremos el siguiente esquema,conectando la base al D6 y dejando el colector abierto para los experimentos:
 
-En la shield tenemos un[ TIP121 es un transistor NPN tipo "Darlington" ](https://alltransistors.com/pdfview.php?doc=tip121.pdf&amp;dire=_fairchild_semi)es decir, está integrado por dos transistores interiormente.
+![](/assets/esquematransistor.png)
+
+por lo tanto:
+
+![](/assets/sinedubasica-transistor.png)
+
+# CON EDUBASICA
+
+En la shield ya tenemos el siguiente esquema:
 
 ![Esquema del transistor en EDUBASICA, en nuestro caso real R6 es 10k](img/m3img0.2.png)
 
