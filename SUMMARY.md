@@ -53,7 +53,7 @@
   * [3.5.3 Montaje 11: zona activa](montaje_11_zona_activa.md)
   * [3.5.4 Montaje 12: Con un diodo se ve bien](montaje_12_con_un_diodo_se_ve_bien.md)
   * [3.5.5 Montaje 13: cálculo de hfe](montaje_13_clculo_de_hfe.md)
-  * [Recta de carga de un transistor](recta_de_carga_de_un_transistor.md)
+  * [3.5.7 Recta de carga de un transistor](recta_de_carga_de_un_transistor.md)
 * [Bobinas-altavoz](bobinasaltavoz.md)
   * [Montaje 14: Pitido](montaje_14_pitido.md)
   * [Montaje 15: Alarma con EDUBASICA](montaje_15_alarma_con_edubasica.md)
