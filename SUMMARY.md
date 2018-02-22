@@ -5,7 +5,7 @@
 ## 1. Fundamentos del Arduino
 
 * [1.1 Arduino](index0.md)
-* [1.2 Conozamoslo](informacin_bsica_sobre_arduino.md)
+* [1.2 Conozcámoslo](informacin_bsica_sobre_arduino.md)
 * [1.3 Hardware](hardware.md)
   * [1.3.1 Alimentación eléctrica de Arduino](alimentacin_elctrica_de_arduino.md)
 * [1.4 Entorno de programación](entorno_de_programacin.md)
