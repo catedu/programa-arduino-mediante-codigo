@@ -5,7 +5,7 @@ Con [el mismo circuito anterior](montaje_11_zona_activa.html), se mide la tensi�
 
 ![](img/img7.png)
 
-Se varía el potenciómetro de la placa EduBásica progresivamente para conseguir las tensiones en la resistencia de base que figuran en la tabla Una vez obtenidos todos los valores, calcular la Intensidad de colector y la intensidad de la base con estas fórmulas
+Se varía el potenciómetro, progresivamente para conseguir las tensiones en la resistencia de base que figuran en la tabla Una vez obtenidos todos los valores, calcular la Intensidad de colector y la intensidad de la base con estas fórmulas
 
 ![](img/img4.3.png)
 

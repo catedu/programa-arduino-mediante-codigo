@@ -52,7 +52,7 @@
   * [3.5.2 Montaje 10: saturación y corte](montaje_10_saturacin_y_corte.md)
   * [3.5.3 Montaje 11: zona activa](montaje_11_zona_activa.md)
   * [3.5.4 Montaje 12: Con un diodo se ve bien](montaje_12_con_un_diodo_se_ve_bien.md)
-  * [Montaje 13: cálculo de hfe](montaje_13_clculo_de_hfe.md)
+  * [3.5.5 Montaje 13: cálculo de hfe](montaje_13_clculo_de_hfe.md)
   * [Recta de carga de un transistor](recta_de_carga_de_un_transistor.md)
 * [Bobinas-altavoz](bobinasaltavoz.md)
   * [Montaje 14: Pitido](montaje_14_pitido.md)
