@@ -3,7 +3,7 @@
 Vamos LEER LOS VALORES DEL POTENCIÓMETRO EN PANTALLA
 
 ##SIN EDUBÁSICA
-Conectamos la salida de un potenciómetro a A0
+Conectamos la salida de un potenciómetro a A0 
 
 ![](/assets/2018-02-21 18_47_08-Circuits Copy of Copy of LED directo _ Tinkercad.png)
 

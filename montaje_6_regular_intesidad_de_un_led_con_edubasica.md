@@ -18,8 +18,19 @@ La regulación del potenciómetro provocará una variación de voltaje en el pin
 
 {% youtube %}https//www.youtube.com/watch?v=y4OAnbQkR-c{% endyoutube %}
 
+##SIN EDUBASICA
 
-**PROGRAMA:**
+Tienes que conectar un led al D5 y un potenciómetro al A0
+
+![](/assets/2018-02-22 07_31_58-Circuits Copy of Copy of Copy of LED directo _ Tinkercad.png)
+
+##CON EDUBÁSICA
+
+No tienes que conectar nada ;) ya está !
+
+##Continuamos
+
+Este es el **PROGRAMA:**
 
 ```cpp+lineNumbers:true
 /* Regular la luminosidad del LED rojo  con el potenciómetro de Edubásica
