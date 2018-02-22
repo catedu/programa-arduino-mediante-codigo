@@ -1,16 +1,16 @@
 
-# Montaje 6 Regular intesidad de un LED con EDUBASICA
+# Montaje 6 Regular intesidad de un LED
 
 Se trata de obtener el mismo efecto que se consiguió en [la práctica correspondiente al potenciómetro](montaje_4_mapeo_potenciometro_edubasica.html), las instrucciones principales eran:
 
-```cpp
+```cpp+lineNumbers:true
 void loop() {
   val = analogRead(0);  // val tiene el rango 0-1024
   analogWrite(3, val/4); //dividimos por 4 para entrar en el rango 0-255
 }
 ```
 
-Pero en este caso utilizaremos el mapeo. 
+Pero en este caso utilizaremos **el mapeo**. 
 
 La descripción de la práctica es la siguiente:
 
@@ -21,7 +21,7 @@ La regulación del potenciómetro provocará una variación de voltaje en el pin
 
 **PROGRAMA:**
 
-```cpp
+```cpp+lineNumbers:true
 /* Regular la luminosidad del LED rojo  con el potenciómetro de Edubásica
 Conexiones:
 Pin 5 digital Arduino   -> LED rojo Edubásica
