@@ -5,7 +5,7 @@ Podemos jugar con el transistor en los estados saturación y corte, para ello va
 
 El programa sería:
 
-```cpp
+```cpp+lineNumbers:true
 int ledPin = 6;
 int potenPin = A0;
 int intensity, valor_poten;
@@ -33,11 +33,19 @@ void loop() {
 ```
 El programa es un poco "tremendo" ¿hay alguna manera de simplificarlo?
 
+##CON EDUBASICA
+
 Pondremos una resistencia de colector de 1k para forzar una corriente de saturación, pero como desde el conector X2-2 hasta V+ hay mucha distancia para conectar los dos extremos de la resistencia, utilizaremos la placa Protoboard:
 
 ![](img/m3img0.3.png)
 
-Mediremos entre colector y masa, y vemos que alternativamente pasa de los estado corte (casi 5V) a saturación (casi 0V) :
+Mediremos entre colector y masa, y vemos que alternativamente pasa de los estado corte (casi 5V) a saturación (casi 0V).
+
+##SIN EDUBASICA
+
+![](/assets/sinedubasica-corte-sat.png)
+
+##RESULTADO
 
 {% youtube %}https//www.youtube.com/watch?v=8ACK1oGoq-s?rel=0{% endyoutube %}
 Si medimos la tensión en la base, vemos que pasa de 0V a 1.28V :
