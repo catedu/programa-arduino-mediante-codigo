@@ -1,6 +1,10 @@
 
 # Montaje 7 Estudio de la tensión umbral de un LED
 
+Objetivo: Medir la tensión del diodo con Arduino con una entrada analógica, A0 (por ejemplo) para detectar la tensión umbral. El diodo lo alimentaremos con un potenciómetro para ir subiendo los valores
+
+## CON EDUBÁSICA
+
 Vamos a realizar el siguiente esquema:
 
 ![](img/2017-09-08_12_54_01-Electronic_circuit_design_-_EasyEDA.png)
@@ -15,7 +19,7 @@ Montamos:
 
 Carga este código en tu placa Arduino:
 
-```cpp
+```cpp+lineNumbers:true
 float val = 0;
 
 void setup(){
@@ -54,3 +58,9 @@ Se puede hacer **sin ningún circuito exterior**, utilizando la resistencia R5 y
 Poner interruptor en OFF y unir el cable uniendo V1 con A0 (dibujado en morado) :
 
 ![](img/img6.1.png)
+
+##SIN EDUBASICA
+
+Igual, simplemente que tienes que hacer el circuito del potenciómetro exteriormente
+
+![](/assets/2018-02-22 10_41_44-Circuits Copy of BASE _ Tinkercad.png)
