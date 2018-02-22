@@ -1,15 +1,23 @@
 
-# Montaje 15: Alarma con EDUBASICA
+# Montaje 15: Alarma
 
 Teniendo en EDUBASICA los LEDs, el LDR que nos puede servir como sensor y el altavóz amplificado con un transistor, y nosotros que somos expertos programadores, NOS ESTÁ PIDIENDO A GRITOS hacer una alarma:
 
 **Enunciado: Cuando el LDR esté tapado, tiene que sonar un pitido intermitente de un segundo, con visualización también en los LEDs**
 
-Conexión: El altavoz tal y como está conectado en el montaje 14
+##SIN EDUBASICA
 
-Programa:
+Pues hay que poner el LDR en A1, las luces (por simplicidad uno), el altavoz y el transistor con la conexión en la base por D5:
 
-```cpp
+![](/assets/sin-edubasica-alarm.png)
+
+##CON EDUBASICA
+
+Se simplifica mucho la conexión sólo el altavoz tal y como está conectado en el montaje 14
+
+##Programa:
+
+```cpp+lineNumbers:true
 void setup() {
   pinMode(6, OUTPUT);
   pinMode(3, OUTPUT); 
@@ -41,7 +49,7 @@ void loop() {
 }
 ```
 
-Resultado:
+##Resultado:
 
 {% youtube %}https//www.youtube.com/watch?v=Eit6hQzr57U?rel=0{% endyoutube %}
 

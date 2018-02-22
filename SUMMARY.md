@@ -56,7 +56,7 @@
   * [3.5.7 Recta de carga de un transistor](recta_de_carga_de_un_transistor.md)
 * [3.6 Bobinas-altavoz](bobinasaltavoz.md)
   * [3.6.1 Montaje 14: Pitido](montaje_14_pitido.md)
-  * [Montaje 15: Alarma con EDUBASICA](montaje_15_alarma_con_edubasica.md)
+  * [3.6.2 Montaje 15: Alarma](montaje_15_alarma_con_edubasica.md)
 * [Créditos](crditos2.md)
 
 ## 4. Electrónica digital
