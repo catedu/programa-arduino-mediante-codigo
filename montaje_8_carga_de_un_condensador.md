@@ -5,7 +5,7 @@ El objetivo de esta práctica es **visualizar la carga de un condensador** aprov
 
 ## SIN EDUBÁSICA
 
-Hacemos una carga del condensador moviendo el cable de la flecha a la alimentación. La unión entre resistencia y condensador lo conectamos a A5.
+Hacemos una carga del condensador moviendo el cable rojo curvo desde masa a la alimentación. La unión entre resistencia y condensador lo conectamos a A5.
 
 ![](/assets/cargacond.png)
 
@@ -51,7 +51,7 @@ La ventaja de utilizar el Arduino, y no el polímetro, es que podemos copiar los
 
 ![](img/img0.7.png)
 
-En este caso, se ha utilizado una resistencia de 100k y un condensador de 10uF por lo tanto el tiempo de carga es T= 5RC = 5 seg que es lo que aproximadamente refleja la gráfica. En tu kit de robótica para hacer este curso tienes unos valores parecidos.
+En este caso, se ha utilizado una resistencia de **100k** y un condensador de **10uF **por lo tanto el tiempo de carga es T= 5RC = 5 seg que es lo que aproximadamente refleja la gráfica. En tu kit de robótica para hacer este curso tienes unos valores parecidos.
 
 > Nota con los valores X: Como la instrucción delay se ha puesto el valor delay(100) por lo tanto hay 0.1segundo entre número y numero, por lo tanto los valores de la X tienen que ser 0, 0.1, 0.2, 0.3 ... en la hoja de cálculo, en la casilla A3 es = A2+0.1 y A1 tiene el valor inicial 0 segundos.
 
