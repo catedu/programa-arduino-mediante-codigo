@@ -61,13 +61,13 @@
 
 ## 4. Electrónica digital
 
-* [Electrónica digital](index3.md)
-* [Álgebra de Boole](lgebra_de_boole.md)
-* [Montaje 1 AND sin EDUBASICA](montaje_1_and_sin_edubasica.md)
-* [Montaje 1bis AND con EDUBASICA](montaje_1bis_and_con_edubasica.md)
-* [Montaje 2 ELEVADOR sin EDUBASICA](montaje_2_elevador_sin_edubasica.md)
-* [Montaje 2bis ELEVADOR con EDUBASICA](montaje_2bis_elevador_con_edubasica.md)
-* [Montaje 3 ALARMA EN VIVIENDA con EDUBASICA](montaje_3_alarma_en_vivienda_con_edubasica.md)
+* [4.0 Electrónica digital](index3.md)
+* [4.1 Álgebra de Boole](lgebra_de_boole.md)
+* [4.2 M1 AND sin EDUBASICA](montaje_1_and_sin_edubasica.md)
+* [4.3 M1AND con EDUBASICA](montaje_1bis_and_con_edubasica.md)
+* [4.4 M2 ELEVADOR sin EDUBASICA](montaje_2_elevador_sin_edubasica.md)
+* [4.5 M2 ELEVADOR con EDUBASICA](montaje_2bis_elevador_con_edubasica.md)
+* [4.6 Montaje 3 ALARMA](montaje_3_alarma_en_vivienda_con_edubasica.md)
 * [Créditos](crditos3.md)
 
 ## 5. Comunicaciones
