@@ -65,6 +65,9 @@ La shield de [otro curso en CATEDU](https://catedu.gitbooks.io/programa-arduino-
 
 ![](img/Triggertrap_shield_on_arduino.jpg)
 
+<iframe src="https://giphy.com/embed/O71r0jHck9jB6" width="480" height="360" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/arduino-O71r0jHck9jB6">via GIPHY</a></p>
+
+
  
 
  

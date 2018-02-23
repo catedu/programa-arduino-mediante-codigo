@@ -90,18 +90,13 @@ void draw() {
 
 ### REPRESENTACIÓN DE DATOS EN EL NAVEGADOR:
 
-[https://dweet.io/follow/CATEDU](https://dweet.io/follow/CATEDU) nos ofrecerá los datos de la siguiente manera:
+[https://dweet.io/follow/CATEDU](https://dweet.io/follow/CATEDU) nos **ofrecería** los datos de la siguiente manera:
 
 ![](img/2017-10-11_20_55_11-dweet.io_-_Share_your_thing-_like_it_aint_no_thang..png)
 
-Si queremos algo más vistoso podemos utilizar el servicio [freeboard.io](freeboard.io) aunque en este caso nos tendremos que registrar en la web.
+>No lo hagas, pues NO LO TENGO CONECTADO !! no sale nada !! por eso pone *"nos ofrecería"*
 
-Una vez registrados podemos crear paneles indicadores configurados a nuestro gusto para visualizar la información. Primero habrá que añadir como fuente de datos Dweet.io y nuestro nombre utilizado allí (jorgeroden en el ejemplo).
+El resultado es espectacular
 
-Después creamos un panel indicando que la fuente de datos que queremos utilizar y la variable en cuestión a visualizar. 
+<iframe src="https://giphy.com/embed/sjDV6YTbw8tig" width="480" height="363" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/reactiongifs-amazing-oc-sjDV6YTbw8tig">via GIPHY</a></p>
 
-![](img/freeb-1.png)
-
-¡Y  resultado puede ser de este tipo!
-
-![](img/freeb-2.png)

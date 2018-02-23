@@ -1,4 +1,3 @@
-
 # Montaje 8: Medición de la distancia
 
 Este tipo de sensores también nos permite conocer la distancia a un objeto. Es más preciso que el de infrarrojos visto en la sección anterior y su rango de funcionamiento también es mayor. Funciona desde los 2cm hasta los 3 metros. 
@@ -17,7 +16,7 @@ El sensor que usamos en estos ejemplos tiene 4 pines que corresponden (de izquie
 - Trig: es el que emite el ultrasonido
 - Echo: Es el que recibe el rebote
 
-(Algunos modelos solo tienen 3 pines -HCSR05- indicándonos por el tercer pin ya directamente un valor proporcional con la distancia.) No aconsejamos usar la Shield de Edubasica, sino conectar diréctamente:
+(Algunos modelos solo tienen 3 pines -HCSR05- indicándonos por el tercer pin ya directamente un valor proporcional con la distancia.)** No aconsejamos usar la Shield de Edubasica, sino conectar diréctamente**, en este caso no nos supone un ahorro de cableado, no como en los motores:
 
 ![](img/Captura_de_pantalla_2015-04-01_a_las_22.51.09.png)
 El programa es:

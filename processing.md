@@ -1,7 +1,7 @@
 
 # Processing
 
-Es un programa similar al IDE de Arduino que has estado manejando hasta ahora, sólo cambia en un botón de PLAY y en otro de STOP., es software abierto desarrollado en Java por Ben Fry y Casey Reas a raiz de una reflexiones en un congreso donde se detecto esta necesidad. Te lo puedes descargar de [http://processing.org](http://processing.org) 
+Es un programa similar al IDE de Arduino que has estado manejando hasta ahora, sólo cambia en un botón de PLAY y en otro de STOP. Es software abierto desarrollado en Java por *Ben Fry y Casey Reas* a raiz de una reflexiones en un congreso donde se detecto esta necesidad. Te lo puedes descargar de [http://processing.org](http://processing.org) 
 
 ### ¿Para qué sirve?
 

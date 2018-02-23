@@ -17,9 +17,13 @@ Lo conectamos en el Arduino sin necesidad de placa Protoboard:
 
 ![](img/m1_img2.png)
 
-utilizando cables macho
+utilizando cables macho-macho
 
 ![](img/img3.png)
+
+Esquema de conexión:
+
+![](/assets/Selección_005.png)
 
 ## Esquema DHT12
 

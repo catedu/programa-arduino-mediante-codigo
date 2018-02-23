@@ -110,4 +110,7 @@ Cambia el principio de la cabecera :
 
 %/accordion%
 
+<iframe src="https://giphy.com/embed/l3vQYPi2ow7YWXQFW" width="480" height="274" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/aardman-fun-cartoon-l3vQYPi2ow7YWXQFW">via GIPHY</a></p>
+
+
 
