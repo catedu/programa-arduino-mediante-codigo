@@ -5,11 +5,7 @@
 
 Podemos probar una aplicación muy importante que está basada en mover el servo según una determinada entrada analógica. Este nos puede ser  muy útil si queremos controlar servos por medio de joysticks por ejemplo o cualquier dispositivo que cuente con potenciómetros para realizar un movimiento.
 
-Para este ejemplo símplemente carga el ejemplo que viene incluido en la IDE de de Arduino (Knob) que encontrarás en:
-
- Archivo-&gt;Ejemplos-&gt;Servo 
-
-Para que funcione en Edubásica sólo tienes que cambiar el número de pin de la conexión del servo: **myservo.attach(7)**;  
+Este está obtenido desde los ejemplos que vienen incluido en la IDE de de Arduino (Knob) que encontrarás en:  Archivo-&gt;Ejemplos-&gt;Servo, sólo hemos cambiado esta línea: **myservo.attach(7)**;  
 
 Lo que hace este programa es variar la posición del servo enfunción de la posición del potenciómetro que leemos de manera analógica.
 
@@ -33,7 +29,7 @@ int potpin = 0;  // analog pin used to connect the potentiometer
 int val;    // variable to read the value from the analog pin
 
 void setup() {
-  myservo.attach(7);  // attaches the servo on pin 9 to the servo object
+  myservo.attach(7);  // attaches the servo on pin 9 (bueno ahora 7) to the servo object
 }
 
 void loop() {
