@@ -105,7 +105,7 @@
     * [6.3.2 Sin Edubásica](sin_edubsica.md)
     * [Montaje 6 Coche loco](montaje-6-coche-loco.md)
   * [6.4 Coche](coche.md)
-    * 6.4.1 Chasis CON EDUBASICA
+    * [6.4.1 Chasis con EDUBASICA](coche/641-chasis-con-edubasica.md)
   * [Chasis coche](montaje_6_giro_motor.md)
 * [Montaje 7 Coche teledirigido](montaje-7-coche-teledirigido.md)
 * [Sensor de ultrasonidos](sensor_de_ultrasonidos.md)
