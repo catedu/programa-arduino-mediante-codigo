@@ -108,7 +108,7 @@
     * [6.4.1 Chasis con EDUBASICA](coche/641-chasis-con-edubasica.md)
     * [6.4.2 Chasis sin Edubásica](coche/642-chasis-sin-edubasica.md)
     * [6.4.3 M6 Coche loco](coche/643-m6-coche-loco.md)
-* [Montaje 7 Coche teledirigido](montaje-7-coche-teledirigido.md)
+    * [6.4.4 M7 Coche teledirigido](coche/644-m7-coche-teledirigido.md)
 * [Sensor de ultrasonidos](sensor_de_ultrasonidos.md)
   * [Montaje 8: Medición de la distancia](montaje_7_medicin_de_la_distancia.md)
 * [Control de temperatura y humedad](control_de_temperatura_y_humedad.md)

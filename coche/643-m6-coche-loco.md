@@ -3,9 +3,11 @@ Vamos a realizar un programa que cuando se apriete el botón de Edubásica, pues
 
 {% youtube %}https://www.youtube.com/watch?v=j6Z9botrgdo{% endyoutube%}
 
+Los programas con motor son sencillos pero engorrosos, este programa es sencillo y verás que tiene muchas líneas, un poco de complicación y se complica mucho más
+
 %accordion%Solución%accordion%
 
-Los programas con motor son sencillos pero engorrosos, este programa es sencillo y verás que tiene muchas líneas, un poco de complicación y se complica mucho más:
+##CODIGO CON EDUBÁSICA
 
 ```cpp
 ////////////// CON EDUBASICA ////////////////
@@ -17,6 +19,7 @@ Los programas con motor son sencillos pero engorrosos, este programa es sencillo
 #define DIR2B 13
 #define BOTON 2
 #define LEDVERDE 3
+
 
 void setup() {
   pinMode(ENABLEA,OUTPUT);
@@ -53,7 +56,18 @@ void loop(){
 }
 ```
 
+## SIN EDUBASICA
+Cambia el principio de la cabecera :
 
+```cpp+lineNumbers:true
+////////////// SIN EDUBASICA ////////////////
+#define ENABLEA 6
+#define DIR1A 7
+#define DIR2A 8
+#define ENABLEB 11
+#define DIR1B 9
+#define DIR2B 10
+```
 %/accordion%
 
 ##Reto
