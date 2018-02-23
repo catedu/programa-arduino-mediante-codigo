@@ -123,6 +123,6 @@
   * [6.5.1 M12 detección linea blanca](montaje_11_deteccin_linea_blanca.md)
 * [6.6 Barrera](barrera.md)
   * [6.6.1 Bluetooth](montaje_12_barrera_i_por_bluetooth.md)
-  * [6.6.2 M14 Tractor al corral ](montaje_13_barrera_ii_con_sensores_us.md)
+  * [6.6.2 M14 Parking](montaje_13_barrera_ii_con_sensores_us.md)
 * [Créditos](crditos5.md)
 
