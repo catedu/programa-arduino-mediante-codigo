@@ -89,9 +89,9 @@
 
 ## 6. Control y robótica
 
-* [Control y robótica](index5.md)
-* [Control de servomotores](control_de_servomotores.md)
-  * [Montaje 1: Testea tu servo](montaje_1_testea_tu_servo.md)
+* [6.0 Control y robótica](index5.md)
+* [6.1 Control de servomotores](control_de_servomotores.md)
+  * [6.1.1 M1 Test servo](montaje_1_testea_tu_servo.md)
   * [Descripción y esquemas](descripcin_y_esquemas.md)
   * [Montaje 2 controlando el servo](montaje_2_controlando_el_servo.md)
   * [Montaje 3 servo paso a paso](montaje_3_servo_paso_a_paso.md)
