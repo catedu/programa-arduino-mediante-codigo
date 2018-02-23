@@ -9,6 +9,8 @@ Necesitamos añadir una resistencia entre el pin y el led, para evitar que el le
 
 ![](img/m2img0.png)
 
+![](/assets/Selección_001.png)
+
 en este caso tienes libertad de utilizar D3 D4 D5 o otros que quieras.
 
 ## Continuamos ...
