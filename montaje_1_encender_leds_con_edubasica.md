@@ -1,5 +1,5 @@
 
-# Montaje 1 Encender LEDs con EDUBASICA
+# Montaje 1 Encender LEDs
 
 El objetivo de esta práctica es encender los LEDs de EDUBASICA con el móvil:
 
@@ -8,8 +8,13 @@ El objetivo de esta práctica es encender los LEDs de EDUBASICA con el móvil:
 - Cuando se pulsa la **flecha abajo**, la APP lanza el dato **D**y tiene que encenderse el led **VERDE.**
 - Cuando se pulsa la **flecha izquierda**, la APP lanza el dato **L**y tienen que apagarse todos.
 
+## SIN EDUBASICA
+No pasa nada, con una placa Protoboard pon 3 leds en D3,D4 y D5.
 
-(si no tienes Edubásica, no pasa nada, con una placa Protoboard pon 3 leds en D3,D4 y D5).
+
+
+## CON EDUBÁSICA
+No hay que hacer nada especial, 
 
 (El vídeo está realizado con otra APP ya desfasada, pero sirve igual de ejemplo)
 {% youtube %}https://www.youtube.com/watch?v=b6YviyYLsTk&feature=youtu.be{% endyoutube %}

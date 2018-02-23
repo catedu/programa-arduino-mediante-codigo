@@ -1,7 +1,7 @@
 
 # Módulo Bluetooth
 
-Vamos a utilizar en estos ejemplos un módulo **esclavo** de bluetooth JY-MCU muy común y económico. Es posible usar otros módulos ya que existe un mercado de desarrollo continuo, en cualquier caso el funcionamiento básico es el mismo. Dicho módulo por tratarse de un módulo **esclavo**, está configurado para conectarse a un maestro y recibir órdenes de él.  
+Vamos a utilizar en estos ejemplos un módulo **esclavo** de bluetooth **JY-MCU** o también** HC-06** muy común y económico. Es posible usar otros módulos ya que existe un mercado de desarrollo continuo, en cualquier caso el funcionamiento básico es el mismo. Dicho módulo por tratarse de un módulo **esclavo**, está configurado para conectarse a un maestro y recibir órdenes de él.  
 
 Inicialmente no necesitas configurarlo, sino que al cargar el código desde el ordenador, conectarás el módulo y este empezará a parpadear indicando que está buscando un master al que conectarse, (por ejemplo tu teléfono o una llave bluetooth usb conectado a un pc).
 
@@ -30,7 +30,7 @@ La conexión es muy fácil, ya tiene JP6 para conectarlo diréctamente, con la l
 
 ### Conexión sin Edubásica
 
-Es también simple, utilizando una placa Protoboard [[ver](http://fritzing.org/media/fritzing-repo/projects/c/conexion-hc-06/fritzing/base-arduino-hc-06.fzz)].
+Es también simple, utilizando una placa Protoboard [[descarga .fzz](http://fritzing.org/media/fritzing-repo/projects/c/conexion-hc-06/fritzing/base-arduino-hc-06.fzz)] pero **intercambiando Rx y Tx** es decir Rx del HC-06 con Tx del Arduino y Tx del HC-06 con Rx del Arduino.
 
 ![](http://fritzing.org/media/CACHE/images/fritzing-repo/projects/c/conexion-hc-06/images/Pantallazo-2018-02-23%2007-55-34/628c9a5c0468e73366492d1a906e81ec.png)
 
