@@ -73,9 +73,9 @@
 ## 5. Comunicaciones
 
 * [5.0 Introducción](index4.md)
-* [Arduino y móvil](arduino_y_mvil.md)
-  * [Teoría Bluetooth](teora_bluetooth.md)
-  * [Módulo Bluetooth](mdulo_bluetooth.md)
+* [5.1 Arduino y móvil](arduino_y_mvil.md)
+  * [5.1.1 Teoría Bluetooth](teora_bluetooth.md)
+  * [5.1.2 Módulo Bluetooth](mdulo_bluetooth.md)
   * [La APP](la_app.md)
   * [Vincular móvil](vincular_mvil.md)
   * [Montaje 1 Encender LEDs con EDUBASICA](montaje_1_encender_leds_con_edubasica.md)

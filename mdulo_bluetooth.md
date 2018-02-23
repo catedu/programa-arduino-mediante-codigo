@@ -27,11 +27,12 @@ Es MUY IMPORTANTE conectar de manera correcta estos pines con Arduino para la co
 La conexión es muy fácil, ya tiene JP6 para conectarlo diréctamente, con la luz led mirando hacia dentro de la placa:
 
 ![](img/m4img3.png)
+
 ### Conexión sin Edubásica
 
-Es también simple, utilizando una placa Protoboard.
+Es también simple, utilizando una placa Protoboard [[ver](http://fritzing.org/media/fritzing-repo/projects/c/conexion-hc-06/fritzing/base-arduino-hc-06.fzz)].
 
-![](img/Captura_de_pantalla_2015-04-03_a_las_18.32.26.png)
+![](http://fritzing.org/media/CACHE/images/fritzing-repo/projects/c/conexion-hc-06/images/Pantallazo-2018-02-23%2007-55-34/628c9a5c0468e73366492d1a906e81ec.png)
 
 ### Ordenes
 
