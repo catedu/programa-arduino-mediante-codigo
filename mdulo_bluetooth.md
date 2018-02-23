@@ -40,7 +40,10 @@ Si la luz está intermitente, el módulo no está vinculado, si está encendido 
 
 Una vez vinculado, la orden es sencilla:
 
+```cpp+lineNumbers:true
 _dato = Serial.read();_
+
+```
 
 donde dato es tipo byte : _byte dato;_
 
