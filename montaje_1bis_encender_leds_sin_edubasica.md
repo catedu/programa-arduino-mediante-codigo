@@ -1,7 +1,7 @@
 
 # Montaje 1bis Encender LEDs sin EDUBASICA
 
-Vamos a ver un ejemplo implementando un **mosaico de LEDs**:
+Este ejemplo es más avanzado, pero no se puede hacer con edubásica: Vamos a ver un ejemplo implementando un **mosaico de LEDs**:
 
 ![](img/Captura_de_pantalla_2015-04-03_a_las_19.05.39.png)
 

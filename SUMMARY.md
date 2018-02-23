@@ -79,12 +79,12 @@
   * [5.1.3 La APP](la_app.md)
   * [5.1.4 Vincular móvil](vincular_mvil.md)
   * [5.1.5 M1 Encender LEDs](montaje_1_encender_leds_con_edubasica.md)
-  * [Montaje 1bis Encender LEDs sin EDUBASICA](montaje_1bis_encender_leds_sin_edubasica.md)
-  * [Configuracion avanzada](configuracion_avanzada.md)
-  * [Bluetooth maestro](bluetooth_maestro.md)
-* [Conexión entre dos Arduinos por cable](conexin_entre_dos_arduinos_por_cable.md)
-  * [Montaje 2: Conectar dos Arduinos](montaje_2_conectar_dos_arduinos.md)
-  * [Otras conexiones](otras_conexiones.md)
+  * [5.1.6 M1bis sin EDUBASICA](montaje_1bis_encender_leds_sin_edubasica.md)
+  * [5.1.7 Para avanzados](configuracion_avanzada.md)
+  * [5.1.8 Bluetooth maestro](bluetooth_maestro.md)
+* [5.2  Arduino-Arduino](conexin_entre_dos_arduinos_por_cable.md)
+  * [5.2.1 M2: dos Arduinos](montaje_2_conectar_dos_arduinos.md)
+  * [5.2.2 Otras conexiones](otras_conexiones.md)
 * [Créditos](crditos4.md)
 
 ## 6. Control y robótica
