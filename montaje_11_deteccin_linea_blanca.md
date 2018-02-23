@@ -10,6 +10,8 @@ Lo mejor es utilizar cables M-H pero si no se tienen, vamos a utilizar la segund
 
 ![](img/m1_img0.1.png)
 
+Utilizaremos la Edubásica el led rojo, si no tienes, simplemente añade un led al pin 13 [tal y como hicimos en Montaje 1 led parpadeante sin edubásica](/montaje_1_led_parpadeante.md)
+
 El programa a cargar en el Arduino es:
 
 El resultado es:
@@ -23,7 +25,8 @@ Rafael lozano Rolón
 //Declaracion de variables
 int sensor = 7;       //ENTRA DIGITAL FACILMENTE ACCESIBLEE EN EDUBASICA
 int Valor_cny70 = 0;
-int Led=5;            //LED ROJO DE EDUBÁSICA
+int Led=5;//LED ROJO DE EDUBÁSICA
+// cambialo al 13 si no utilizas EDUBÁSICA
 
 void setup() 
 {

@@ -1,14 +1,21 @@
 
 # Montaje 14 Barrera II con sensores US
 
-Ahora le añadimos dos sensores de ultrasonidos, si detecta el coche a la entrada de la barrera, se enciende la luz amarilla en espera que el coche pueda abrir con el móvil.
+Ahora **le añadimos ** *(esperamos que no hayas desmontado el montaje anterior)* dos sensores de ultrasonidos, si detecta el coche a la entrada de la barrera, se enciende la luz amarilla en espera que el coche pueda abrir con el móvil.
 
 Una vez recibido el código de abrir barrera, se abre y se enciende la luz verde.
 
 Una vez cruzado el coche, lo detecta el ultrasonido de la salida que cerrará la barrera poniendo el semáforo en rojo otra vez.
 
 {% youtube %}https//www.youtube.com/watch?v=nlnxai_u360?rel=0{% endyoutube %}
-La configuración de pines de los ultrasonidos que hemos elegido esta en los comentarios del programa. El programa por supuesto es mejorable (tiene fallos a ver si los adivinas) y si tienes una versión mejor, puedes utilizar este GitHub [https://github.com/JavierQuintana/barrera](https://github.com/JavierQuintana/barrera)
+
+La configuración de pines de los ultrasonidos que hemos elegido esta en los comentarios del programa (o sea, dónde hay que conectar *Trg* y *Echo* de los sensores). Puedes [ver aquí cómo se conectan los ultrasonidos](/montaje_7_medicin_de_la_distancia.md).
+
+Si no tienes edubásica tendras que añadir los leds de [semáforo, pincha aquí](/montaje_3_semforo_edubasica.md).
+
+>El programa por supuesto es mejorable (tiene fallos a ver si los adivinas).
+
+
 
 ```cpp
 String readString;
@@ -21,14 +28,16 @@ byte dato=0;
 int ledArriba = 3; //LED VERDE DE EDUBASICA
 int ledCentro = 4; //LED AMARILLO DE EDUBASICA
 int ledAbajo = 5; // LED ROJO DE EDUBASICA
-///////////////// SENSOR ULTRASONIDOS ENTRADA ///////////////
-int trigPinE = 4;
-int echoPinE = 2;
+///////////////// SENSOR ULTRASONIDOS 1 ENTRADA ///////////////
+int trigPinE = 4; //CONECTAR AL D4 EL TRIG ULTRASONIDOS 1
+int echoPinE = 2; //CONECTAR A D2 EL ECHO ULTRASONIDOS 1
 long durationE; //tiempo de ida/vuelta
 int cmE=0; //Para almacenar el valor obtenido en cm valor=0
-///////////////// SENSOR ULTRASONIDOS SALIDA ///////////////
-int trigPinS = 6;
-int echoPinS = 5;
+///////////////// SENSOR ULTRASONIDOS 2 SALIDA ///////////////
+int trigPinS = 6; //CONECTAR AL D6 EL TRIG ULTRASONIDOS 2
+
+int echoPinS = 5; //CONECTAR A D5 EL ECHO ULTRASONIDOS 2
+
 long durationS; //tiempo de ida/vuelta
 int cmS=0; //Para almacenar el valor obtenido en cm valor=0
 //////////////////////////////////////////////////////////////////

@@ -19,6 +19,7 @@ El sensor que usamos en estos ejemplos tiene 4 pines que corresponden (de izquie
 (Algunos modelos solo tienen 3 pines -HCSR05- indicándonos por el tercer pin ya directamente un valor proporcional con la distancia.)** No aconsejamos usar la Shield de Edubasica, sino conectar diréctamente**, en este caso no nos supone un ahorro de cableado, no como en los motores:
 
 ![](img/Captura_de_pantalla_2015-04-01_a_las_22.51.09.png)
+
 El programa es:
 
 ```cpp

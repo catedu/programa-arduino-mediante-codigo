@@ -120,9 +120,9 @@
   * [6.4.7 dweet.io](dweetio.md)
   * [6.4.8 M11 Por Internet T y H](montaje_10_visualizacin_de_datos_en_la_nube_internet_de_las_cosas.md)
 * [6.5 Sensor de infrarrojos CNY70](sensor_de_infrarrojos_cny70.md)
-  * [Montaje 12 detección linea blanca](montaje_11_deteccin_linea_blanca.md)
-* [Barrera](barrera.md)
-  * [Montaje 13 Barrera I por Bluetooth](montaje_12_barrera_i_por_bluetooth.md)
-  * [Montaje 14 Barrera II con sensores US](montaje_13_barrera_ii_con_sensores_us.md)
+  * [6.5.1 M12 detección linea blanca](montaje_11_deteccin_linea_blanca.md)
+* [6.6 Barrera](barrera.md)
+  * [6.6.1 Bluetooth](montaje_12_barrera_i_por_bluetooth.md)
+  * [6.6.2 M14 Tractor al corral ](montaje_13_barrera_ii_con_sensores_us.md)
 * [Créditos](crditos5.md)
 

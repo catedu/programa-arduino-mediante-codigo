@@ -20,8 +20,10 @@ En Edubásica tenemos una forma muy sencilla de conectar un servo a la tarjeta. 
 De arriba abajo las conexiones son:
 
 - Señal (pin7)
-- +5V
+- +Vin
 - GND
+
+![](/assets/conexion-edubasica-servo.png)
 
 Recuerda que siempre puedes utilizar los pines analógicos como E/S digitales, del pin 14 al 19.
 

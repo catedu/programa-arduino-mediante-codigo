@@ -20,3 +20,4 @@ Lista de materiales:
 - Módulo Bluetooth.
 - Móvil con Android
 
+<iframe src="https://giphy.com/embed/zArTrAsfv4onu" width="480" height="400" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/arduino-zArTrAsfv4onu">via GIPHY</a></p>
