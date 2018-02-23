@@ -67,12 +67,12 @@
 * [4.3 M1AND con EDUBASICA](montaje_1bis_and_con_edubasica.md)
 * [4.4 M2 ELEVADOR sin EDUBASICA](montaje_2_elevador_sin_edubasica.md)
 * [4.5 M2 ELEVADOR con EDUBASICA](montaje_2bis_elevador_con_edubasica.md)
-* [4.6 Montaje 3 ALARMA](montaje_3_alarma_en_vivienda_con_edubasica.md)
+* [4.6 M3 ALARMA](montaje_3_alarma_en_vivienda_con_edubasica.md)
 * [Créditos](crditos3.md)
 
 ## 5. Comunicaciones
 
-* [Tecnologías de la comunicación](index4.md)
+* [5.0 Introducción](index4.md)
 * [Arduino y móvil](arduino_y_mvil.md)
   * [Teoría Bluetooth](teora_bluetooth.md)
   * [Módulo Bluetooth](mdulo_bluetooth.md)
