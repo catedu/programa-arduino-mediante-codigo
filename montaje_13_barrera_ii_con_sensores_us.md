@@ -120,3 +120,5 @@ void loop()
 # FINNNN
 Esperamos que este curso, no sólo te has formado, sino que has disfrutado. Cualquier sugerencia, cambio, propuesta, fallos... puedes hacerlo en [www.catedu.es](https://www.catedu.es) en la sección de Tickets ¡¡gracias!!!
 
+<iframe src="https://giphy.com/embed/T9zBDkhqJznwI" width="480" height="360" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/robots-T9zBDkhqJznwI">via GIPHY</a></p>
+
