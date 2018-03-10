@@ -15,7 +15,7 @@ En este montaje usaremos la resistencia LDR de la placa Edubásica. Como ya hem
 ##SIN EDUBASICA
 Hay que conectar en formato pull-down el LDR a A1 y un led verde a D3:
 
-![](/assets/2018-02-21 19_00_39-Circuits Copy of Copy of LED directo _ Tinkercad.png)
+![](/assets/Selection_012.png)
 
 ##CONTINUAMOS....
 
