@@ -14,7 +14,7 @@ Vamos a aprovechar el A0 que está conectado al potenciómetro y utilizaremos el
 
 Pues se necesita hacer el cableado correspondiente A0 con el potenciómetro y D3 a un led:
 
-![](/assets/2018-02-21 18_42_58-Circuits Copy of Copy of LED directo _ Tinkercad.png)
+![](/assets/Selection_011.png)
 
 ##Continuamos ...
 El programa sería el siguiente
