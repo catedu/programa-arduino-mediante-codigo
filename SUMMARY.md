@@ -1,7 +1,6 @@
 # Summary
 
 * [Introducción](README.md)
-* [Muro](muro.md)
 
 ## 1. Fundamentos del Arduino
 
@@ -14,7 +13,6 @@
 * [1.6 Simulación](simulacin.md)
 * [1.7 Un poco de orden... el pensamiento computacional](un_poco_de_orden_el_pensamiento_computacional.md)
 * [1.8 Kit de préstamo de CATEDU](kit_de_prstamo_de_catedu.md)
-* [Créditos](crditos.md)
 
 ## 2. Montajes básicos con Arduino
 
@@ -28,7 +26,6 @@
 * [2.3 Conexiones analógicas](conexiones_analgicas.md)
 * [2.4 Señales PWM](un_caso_especial_seales_pwm.md)
   * [2.4.1 M5: Control LED](montaje_5_control_de_la_intensidad_de_iluminacin_de_un_led_edubasica.md)
-* [Créditos](crditos1.md)
 
 ## 3. Electrónica Analógica
 
@@ -58,7 +55,6 @@
 * [3.6 Bobinas-altavoz](bobinasaltavoz.md)
   * [3.6.1 M14: Sirena](montaje_14_pitido.md)
   * [3.6.2 M15: Alarma](montaje_15_alarma_con_edubasica.md)
-* [Créditos](crditos2.md)
 
 ## 4. Electrónica digital
 
@@ -69,7 +65,6 @@
 * [4.4 M2 ELEVADOR sin EDUBASICA](montaje_2_elevador_sin_edubasica.md)
 * [4.5 M2 ELEVADOR con EDUBASICA](montaje_2bis_elevador_con_edubasica.md)
 * [4.6 M3 ALARMA](montaje_3_alarma_en_vivienda_con_edubasica.md)
-* [Créditos](crditos3.md)
 
 ## 5. Comunicaciones
 
@@ -86,7 +81,6 @@
 * [5.2  Arduino-Arduino](conexin_entre_dos_arduinos_por_cable.md)
   * [5.2.1 M2: dos Arduinos](montaje_2_conectar_dos_arduinos.md)
   * [5.2.2 Otras conexiones](otras_conexiones.md)
-* [Créditos](crditos4.md)
 
 ## 6. Control y robótica
 
@@ -125,5 +119,6 @@
 * [6.6 Barrera](barrera.md)
   * [6.6.1 Bluetooth](montaje_12_barrera_i_por_bluetooth.md)
   * [6.6.2 M14 Parking](montaje_13_barrera_ii_con_sensores_us.md)
-* [Créditos](crditos5.md)
+* [Muro](muro.md)
+* [Créditos](crditos.md)
 
