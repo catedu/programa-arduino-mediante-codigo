@@ -1,6 +1,7 @@
 # Summary
 
 * [Introducción](README.md)
+* [Muro](muro.md)
 
 ## 1. Fundamentos del Arduino
 
