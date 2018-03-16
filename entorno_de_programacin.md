@@ -5,7 +5,7 @@ El entorno de desarrollo Arduino IDE (IDE,  Integrated development environment)
 
 >OJO, existe la versión web del editor [https://create.arduino.cc/editor ](https://create.arduino.cc/editor)para trabajar online, puedes probarlo, pero seguimos recomendando la versión de escritorio por ser más rápida, no obstante es una buena solución si trabajas en varios equipos y quieres que tus proyectos estén disponibles.
 
->En Linux puede salir este mensaje _"can't open device "/dev/ttyUSB0": Permission denied"_ la solución [aquí](https://arduino.stackexchange.com/questions/21215/first-time-set-up-permission-denied-to-usb-port-ubuntu-14-04)
+>En Linux puede salir este mensaje _"can't open device "/dev/ttyUSB0": Permission denied"_ donde 0 puede ser otro número, la solución [aquí](https://arduino.stackexchange.com/questions/21215/first-time-set-up-permission-denied-to-usb-port-ubuntu-14-04)
 
 Arduino utiliza para escribir el código fuente o programa de aplicación lo que denomina "sketch" (programa). Estos programas son escritos en el editor de texto. Existe la posibilidad de cortar/pegar y buscar/remplazar texto. En el área de mensajes se muestra información mientras se cargan los programas y también muestra errores. La consola muestra el texto de salida para el entorno de Arduino incluyendo los mensajes de error completos y otras informaciones. La barra de herramientas permite verificar el proceso de carga, creación, apertura y guardado de programas, y la monitorización serie: 
 
