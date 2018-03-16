@@ -42,9 +42,8 @@ La tabla de verdad es muy fácil:
 |LOW|X|X|STOP|
 
 ##AUN TE QUEDA UNA CONEXIÓN
-Recuerda que en el transistor aún puedes poner otro motor, o en otro pin se puede poner un servo, y en otro pin un sensor de Ultrasonidos, por ejemplo para hacer un "evita obstáculos"
-
-o un sensor de líneas
+Recuerda que en el transistor aún puedes poner otro motor.
+Respecto a terminales digitales, te quedan pines para poner servos, sensor de ultrasonidos, sensor de líneas...
 
 <iframe src="https://giphy.com/embed/RhdxqQ81tfURi" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/arduino-RhdxqQ81tfURi">via GIPHY</a></p>
 
