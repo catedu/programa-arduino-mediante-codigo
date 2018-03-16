@@ -3,6 +3,8 @@ Sé que lo estabas pensando... ponerle [el Bluetooth](/mdulo_bluetooth.md), vamo
 
 {% youtube %}https://www.youtube.com/watch?v=_cn9sSBwZXA&feature=youtu.be{% endyoutube%}
 
+OJO, para realizar este ejercicio tienes que vincular el HC-06 con la APP, [¿te acuerdas cómo lo hicimos?](/vincular_mvil.md)
+
 %accordion%Solución%accordion%
 
 ##CON EDUBASICA
