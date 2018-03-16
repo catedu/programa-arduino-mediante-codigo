@@ -69,4 +69,6 @@ void loop() {
       digitalWrite(ledDerecha, LOW);
  }
  
+ }
+ 
 ```
