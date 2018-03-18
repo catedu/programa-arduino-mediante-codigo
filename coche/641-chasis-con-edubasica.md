@@ -14,6 +14,8 @@ Las conexiones son muy sencillas:
 
 ![](/assets/2018-02-05 12_57_31-Documento1 - Microsoft Word.png)
 
+>NOTA: Si funciona pero con las oŕdenes cambiadas (es decir que queremos que gire a la izquierda y va hacia delante, queremos que vaya hacia delante y gira a la izquierda...) es debido a que tenemos los cables rojo y negro de un motor intercambiados.
+
 ###Ordenes
 Estos son los pines que hay que activar:
 

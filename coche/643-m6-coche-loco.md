@@ -19,40 +19,61 @@ Los programas con motor son sencillos pero engorrosos, este programa es sencillo
 #define DIR2B 13
 #define BOTON 2
 #define LEDVERDE 3
-
-
+#define LEDAMARILLO 4
+#define LEDROJO 5
+byte dato;
+/////////////////////////////////////////////////////////////////////////////////////////////////////
 void setup() {
-  pinMode(ENABLEA,OUTPUT);
-  pinMode(DIR1A,OUTPUT);
-  pinMode(DIR2A,OUTPUT);
-  pinMode(ENABLEB,OUTPUT);
-  pinMode(DIR1B,OUTPUT);
-  pinMode(DIR2B,OUTPUT);
+  Serial.begin(9600);
+  pinMode(ENABLEA,OUTPUT);  pinMode(DIR1A,OUTPUT);  pinMode(DIR2A,OUTPUT);
+  pinMode(ENABLEB,OUTPUT);  pinMode(DIR1B,OUTPUT);  pinMode(DIR2B,OUTPUT);
   pinMode(BOTON,INPUT);
+  pinMode(LEDVERDE,OUTPUT); pinMode(LEDAMARILLO,OUTPUT);  pinMode(LEDROJO,OUTPUT);
+
+
 }
-void loop(){
- int i = 0;
- if (digitalRead(BOTON) == HIGH) {     
-      digitalWrite(LEDVERDE, HIGH);  
-      digitalWrite(ENABLEA,HIGH);
-      digitalWrite(ENABLEB,HIGH);
-      for (i=0;i<5;i++) {
-        digitalWrite(DIR1A,HIGH); 
-        digitalWrite(DIR2A,LOW);
-        digitalWrite(DIR1B,HIGH); 
-        digitalWrite(DIR2B,LOW);
-        delay(1000); 
-        digitalWrite(DIR1A,LOW);  
-        digitalWrite(DIR2A,HIGH);
-        digitalWrite(DIR1B,LOW);  
-        digitalWrite(DIR2B,HIGH);
-        delay(1000); 
-      }
- }else {
-    digitalWrite(LEDVERDE, LOW); 
-    digitalWrite(ENABLEA,LOW); 
-    digitalWrite(ENABLEB,LOW); 
- }
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+void loop() {
+  if (Serial.available())  dato= Serial.read();//Guardamos en la variable dato el valor leido
+       
+   //Comprobamos el dato
+   switch(dato) {//Si recibimos una  ...  85=ARRIBA  68=U=ABAJO 67=D=CENTRO  76=L=IZQUIERDA 82=R=DCHA  97=a  98=B  99=C
+         case 'U': //UP HACIA DELANTE
+         {
+           digitalWrite(LEDVERDE, HIGH);    digitalWrite(LEDROJO, LOW);   digitalWrite(LEDAMARILLO, LOW);
+           digitalWrite(ENABLEA,HIGH);      digitalWrite(DIR1A,HIGH);     digitalWrite(DIR2A,LOW);
+           digitalWrite(ENABLEB,HIGH);      digitalWrite(DIR1B,HIGH);     digitalWrite(DIR2B,LOW);
+           break;
+         }
+         case 'D': //"D": ABAJO
+         {
+           digitalWrite(LEDVERDE, LOW);     digitalWrite(LEDROJO, HIGH);   digitalWrite(LEDAMARILLO, LOW);
+           digitalWrite(ENABLEA,HIGH);      digitalWrite(DIR1A,LOW);      digitalWrite(DIR2A,HIGH);
+           digitalWrite(ENABLEB,HIGH);      digitalWrite(DIR1B,LOW);      digitalWrite(DIR2B,HIGH);
+           break;
+         }
+         case 'L': //"L": IZQUIERDA
+         {
+           digitalWrite(LEDVERDE, HIGH);     digitalWrite(LEDROJO, LOW);    digitalWrite(LEDAMARILLO, HIGH);
+           digitalWrite(ENABLEA,HIGH);      digitalWrite(DIR1A,LOW);       digitalWrite(DIR2A,HIGH);
+           digitalWrite(ENABLEB,HIGH);      digitalWrite(DIR1B,HIGH);      digitalWrite(DIR2B,LOW);
+           break;
+         }
+         case 'R': //"R": DERECHA
+         {
+           digitalWrite(LEDVERDE, HIGH);     digitalWrite(LEDROJO, HIGH);    digitalWrite(LEDAMARILLO, HIGH);
+           digitalWrite(ENABLEA,HIGH);      digitalWrite(DIR1A,HIGH);      digitalWrite(DIR2A,LOW);
+           digitalWrite(ENABLEB,HIGH);      digitalWrite(DIR1B,LOW);       digitalWrite(DIR2B,HIGH);
+           break;
+         }
+          case 'S':  //si apretamos a start que pare
+         {
+           digitalWrite(LEDVERDE, LOW);     digitalWrite(LEDROJO, LOW);    digitalWrite(LEDAMARILLO, LOW);
+           digitalWrite(ENABLEA,LOW);
+           digitalWrite(ENABLEB,LOW);  
+           break;
+         }      
+  }
 }
 ```
 
