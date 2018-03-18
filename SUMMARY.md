@@ -103,6 +103,7 @@
     * [6.2.3.2 Chasis sin Edubásica](coche/642-chasis-sin-edubasica.md)
     * [6.2.3.3 M6 Coche loco](coche/643-m6-coche-loco.md)
     * [6.2.3.4 M7 Coche teledirigido](coche/644-m7-coche-teledirigido.md)
+    * [6.2.3.5 M8 Coche con voz](6235-m8-coche-con-voz.md)
 * [6.3 Sensor de ultrasonidos](sensor_de_ultrasonidos.md)
   * [6.3.1 M8: Medición](montaje_7_medicin_de_la_distancia.md)
 * [6.4 Temperatura y humedad](control_de_temperatura_y_humedad.md)
