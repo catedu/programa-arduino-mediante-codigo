@@ -5,8 +5,6 @@ Vamos a realizar un programa que cuando se apriete el botón de Edubásica, pues
 
 Los programas con motor son sencillos pero engorrosos, este programa es sencillo y verás que tiene muchas líneas, un poco de complicación y se complica mucho más
 
-%accordion%Solución%accordion%
-
 ##CODIGO CON EDUBÁSICA
 
 ```cpp
@@ -78,6 +76,7 @@ void loop() {
 ```
 
 ## SIN EDUBASICA
+
 Cambia el principio de la cabecera :
 
 ```cpp+lineNumbers:true
@@ -89,7 +88,6 @@ Cambia el principio de la cabecera :
 #define DIR1B 9
 #define DIR2B 10
 ```
-%/accordion%
 
 ##Reto
 ¿Que tal si en vez de activarse con el botón, que simplemente cuando este oscuro (utiliza el valor del pin analógico 2 = LDR), se ponga a bailar? 
