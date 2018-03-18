@@ -77,7 +77,7 @@ void loop() {
 
 ## SIN EDUBASICA
 
-Cambia el principio de la cabecera :
+Cambia el principio de la cabecera, y omite los LEDs:
 
 ```cpp+lineNumbers:true
 ////////////// SIN EDUBASICA ////////////////
