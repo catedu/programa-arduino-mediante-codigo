@@ -9,4 +9,4 @@ Es este capítulo analizaremos sensores y varios proyectos reales para usarlos.
 Si tienes dudas técnicas en este capítulo pon un ticket a http://soporte.catedu.es/ y te ayudaremos:
 
 
-
+![](http://aularagon.catedu.es/materialesaularagon2013/Arduino-codigo/travoltin.gif)
