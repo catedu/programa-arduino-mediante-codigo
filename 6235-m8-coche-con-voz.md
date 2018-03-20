@@ -8,7 +8,7 @@
 
 **¡¡ Es el mismo código que [6.2.3.4 M7 Coche teledirigido ](/coche/644-m7-coche-teledirigido.md)!!!**
 
-Lo que pasa es que se utiliza en la aplicación [Arduino Blue Control](/la_app.md) utilizamos en vez del mando con flechas, el control de voz.
+Lo que pasa es en la aplicación [Arduino Blue Control](/la_app.md) utilizamos en vez del mando con flechas, el control de voz. **[Easy-peasy](http://www.wordreference.com/es/translation.asp?tranword=easy-peasy)** !!
 
 ![](/assets/Selection_019.png)
 
