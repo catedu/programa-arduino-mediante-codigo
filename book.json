@@ -1,5 +1,5 @@
 {
-    "plugins": ["youtube", "accordion", "-highlight", "sunlight-highlighter", "image-captions", "quiz"],
+    "plugins": ["youtube", "accordion", "-highlight", "sunlight-highlighter", "image-captions", "quiz", "styled-blockquotes", "localized-footer", "git-author", "githubcontributors"],
     "pluginsConfig": {
         "sunlight-highlighter": {
             "theme": "dark",
@@ -7,6 +7,20 @@
         },
         "image-captions": {
             "caption": "Imagen - _CAPTION_"
+        },
+        "localized-footer": {
+            "hline": true,
+            "filename": "./FOOTER.md"
+        },
+        "git-author": {
+            "position": "bottom",
+            "modifyTpl": "Ultima actualización por {user} {timeStamp}",
+            "createTpl": false,
+            "timeStampFormat": "DD-MM-YYYY HH:mm:ss"
+        },
+        "githubcontributors": {
+            "githubOwner": "catedu",
+            "githubRepository": "hojas-de-calculo"
         },
         "quiz": {
             "labels": {
