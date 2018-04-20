@@ -1,1 +1,1 @@
-{% include "https://catedu.gitbooks.io/ensena-pensamiento-computacional-con-arduino/content/grupo-robotica-educativa-aragon.html" %}
+{% include "git+https://github.com/catedu/ensena-pensamiento-computacional-con-arduino.git/grupo-robotica-educativa-aragon.md" %}
