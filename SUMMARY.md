@@ -121,5 +121,6 @@
   * [6.6.1 Bluetooth](montaje_12_barrera_i_por_bluetooth.md)
   * [6.6.2 M14 Parking](montaje_13_barrera_ii_con_sensores_us.md)
 * [Muro](muro.md)
+* [Chat robótica educativa aragón](chat-robotica-educativa-aragon.md)
 * [Créditos](crditos.md)
 
