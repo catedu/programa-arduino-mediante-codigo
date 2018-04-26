@@ -7,33 +7,34 @@ Una vez descargado, es un fichero comprimido .zip o .rar **no lo descomprimas** 
 
 ##Principales funciones
 **LiquidCrystal_I2C(lcd_Addr, lcd_cols, lcd_rows)**
-Crea una variable (informáticamente un objeto de la clase LiquidCrystal_I2C) para poder utilizar sus funciones, hay que indicar entre paréntesis la dirección, columnas y filas indicadas.
+Crea una variable (informáticamente un objeto de la clase LiquidCrystal_I2C) para poder utilizar sus funciones, hay que indicar entre paréntesis la dirección, columnas y filas indicadas. Por ejemplo LiquidCrystal_I2C lcd(0x3F,16,2);
 
 _¿No sabes la dirección?. Eso es que te has saltado [esta lección](/3-entradas-y-salidas/31-lcd/313-escaneo.md)_ en mi caso es 0x3F.
 
-init()
-Inicializa el modulo adaptador LCD a I2C, esta función internamente configura e inicializa el I2C y el LCD.
+Después de crear esa variable hay que inicializarlo con lcd.**init()**
 
-clear()
-Borra la pantalla LCD y posiciona el cursor en la esquina superior izquierda (posición (0,0)).
+>lcd es el nombre de la variable, puedes poner el nombre que quieras
 
-setCursor(col, row)
-Posiciona el cursor del LCD en la posición indicada por col y row(x,y); es decir, establecer la ubicación en la que se mostrará posteriormente texto escrito para la pantalla LCD.
+lcd.**clear()**
+Borra la pantalla y posiciona el cursor en la esquina superior izquierda (0,0).
 
-print()
-Escribe un texto o mensaje en el LCD, su uso es similar a un Serial.print
+lcd.**setCursor(columna, fila)**
+Posiciona el cursor del LCD en la posición indicada por columna y fila.
 
-scrollDisplayLeft()
+lcd.**print("**texto**")**
+Escribe el texto 
+
+lcd.**scrollDisplayLeft()**
 Se desplaza el contenido de la pantalla (texto y el cursor) un espacio hacia la izquierda.
 
-scrollDisplayRight()
+lcd.**scrollDisplayRight()**
 Se desplaza el contenido de la pantalla (texto y el cursor) un espacio a la derecha.
 
-backlight();
+lcd.**backlight()**
 Enciende la Luz del Fondo del LCD
 
-noBacklight();
+lcd.**noBacklight();**
 Apaga la Luz del Fondo del LCD
 
-createChar (num, datos)
-Crea un carácter personalizado para su uso en la pantalla LCD. Se admiten hasta ocho caracteres de 5x8 píxeles (numeradas del 0 al 7). Dónde: num es el número de carácter y datos es una matriz que contienen los pixeles del carácter
+lcd.**createChar (num, datos)**
+Crea un carácter personalizado permite crear hasta 8. Para usar esta función [ver esta página.](https://www.arduino.cc/en/Reference/LiquidCrystalCreateChar)
