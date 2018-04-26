@@ -6,6 +6,7 @@
     * [3.1.1 Pantalla LCD](3-entradas-y-salidas/31-lcd/311-pantalla-lcd.md)
     * [3.1.2 I2C](3-entradas-y-salidas/31-lcd/312-i2c.md)
     * [3.1.3 Escaneo](3-entradas-y-salidas/31-lcd/313-escaneo.md)
+* [Fuera del curso](fuera-del-curso.md)
 
 ## 1. Fundamentos del Arduino
 
