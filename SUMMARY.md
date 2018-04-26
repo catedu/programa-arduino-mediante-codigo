@@ -28,20 +28,22 @@
   * [2.4.1 M5: Control LED](montaje_5_control_de_la_intensidad_de_iluminacin_de_un_led_edubasica.md)
 
 ## Entradas y salidas
+
 * [3.0 Entradas y Salidas](3-entradas-y-salidas.md)
 * [3.1 M3: Potenciómetro](montaje_3_potencimetro_edubasica.md)
   * [3.1.1 M4: Mapeo](montaje_4_mapeo_potenciometro_edubasica.md)
- * [3.1.2 Mapeo de valores](mapeo_de_valores.md)
+  * [3.1.2 Mapeo de valores](mapeo_de_valores.md)
 * [3.2 M5: LDR](montaje_5_ldr_con_edubasica.md)
 * [3.3 Diodos](diodos.md)
-    * [3.3.1 M6 Intensidad LED](montaje_6_regular_intesidad_de_un_led_con_edubasica.md)
+  * [3.3.1 M6 Intensidad LED](montaje_6_regular_intesidad_de_un_led_con_edubasica.md)
 * [3.4 Bobinas-altavoz](bobinasaltavoz.md)
-    * [3.4.1 M14: Sirena](montaje_14_pitido.md)
-    * [3.4.2 M15: Alarma](montaje_15_alarma_con_edubasica.md)
+  * [3.4.1 M14: Sirena](montaje_14_pitido.md)
+  * [3.4.2 M15: Alarma](montaje_15_alarma_con_edubasica.md)
 * [3.5 LCD](3-entradas-y-salidas/31-lcd.md)
-    * [3.5.1 Pantalla LCD](3-entradas-y-salidas/31-lcd/311-pantalla-lcd.md)
-    * [3.5.2 I2C](3-entradas-y-salidas/31-lcd/312-i2c.md)
-    * [3.5.3 Escaneo](3-entradas-y-salidas/31-lcd/313-escaneo.md)
+  * [3.5.1 Pantalla LCD](3-entradas-y-salidas/31-lcd/311-pantalla-lcd.md)
+  * [3.5.2 I2C](3-entradas-y-salidas/31-lcd/312-i2c.md)
+  * [3.5.3 Escaneo](3-entradas-y-salidas/31-lcd/313-escaneo.md)
+  * [3.5.4 Texto](3-entradas-y-salidas/31-lcd/354-texto.md)
 * [3.4 Sensor de ultrasonidos](sensor_de_ultrasonidos.md)
   * [3.4.1 M8: Medición](montaje_7_medicin_de_la_distancia.md)
 * [3.5 Temperatura y humedad](control_de_temperatura_y_humedad.md)
@@ -55,7 +57,6 @@
   * [3.5.8 M11 Por Internet T y H](montaje_10_visualizacin_de_datos_en_la_nube_internet_de_las_cosas.md)
 * [3.6 Sensor de infrarrojos CNY70](sensor_de_infrarrojos_cny70.md)
   * [3.6.1 M12 detección linea blanca](montaje_11_deteccin_linea_blanca.md)
-
 
 ## 4. Comunicaciones
 
@@ -103,8 +104,8 @@
 * [Créditos](crditos.md)
 
 ## Fuera del curso
-* [Fuera del curso](fuera-del-curso.md)
 
+* [Fuera del curso](fuera-del-curso.md)
   * [EA.1 Electrónica analógica](index2.md)
   * [EA.2 Resistencias](resistencias.md)
     * [EA.2.1 Divisor de tensión](divisor_de_tensin.md)
@@ -129,6 +130,4 @@
   * [ED.4 M2 ELEVADOR sin EDUBASICA](montaje_2_elevador_sin_edubasica.md)
   * [ED.5 M2 ELEVADOR con EDUBASICA](montaje_2bis_elevador_con_edubasica.md)
   * [ED.6 M3 ALARMA](montaje_3_alarma_en_vivienda_con_edubasica.md)
-
-
 
