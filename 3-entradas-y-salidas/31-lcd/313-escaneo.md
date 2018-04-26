@@ -59,3 +59,5 @@ void loop()
 Extraido de [Arduino.cc](https://playground.arduino.cc/Main/I2cScanner) o también de [Luis Llamas](https://www.luisllamas.es/arduino-i2c/)
 
 Nos tiene que salir lo siguiente:
+
+![](/assets/escanerI2c.gif)

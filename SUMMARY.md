@@ -43,7 +43,8 @@
   * [3.5.1 Pantalla LCD](3-entradas-y-salidas/31-lcd/311-pantalla-lcd.md)
   * [3.5.2 I2C](3-entradas-y-salidas/31-lcd/312-i2c.md)
   * [3.5.3 Escaneo](3-entradas-y-salidas/31-lcd/313-escaneo.md)
-  * [3.5.4 Texto](3-entradas-y-salidas/31-lcd/354-texto.md)
+  * 3.5.4 Librería LiquidCrystal\_I2C
+  * [3.5.5 Texto](3-entradas-y-salidas/31-lcd/354-texto.md)
 * [3.4 Sensor de ultrasonidos](sensor_de_ultrasonidos.md)
   * [3.4.1 M8: Medición](montaje_7_medicin_de_la_distancia.md)
 * [3.5 Temperatura y humedad](control_de_temperatura_y_humedad.md)
