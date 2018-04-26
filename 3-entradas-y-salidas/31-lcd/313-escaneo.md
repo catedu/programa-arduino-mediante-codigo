@@ -61,3 +61,5 @@ Extraido de [Arduino.cc](https://playground.arduino.cc/Main/I2cScanner) o tambi�
 Nos tiene que salir lo siguiente:
 
 ![](/assets/escanerI2c.gif)
+
+En mi caso como ves la dirección me ha salido **0x3F** pero puede ser cualquier otro, por ejemplo otro valor muy típico es **0x27**
