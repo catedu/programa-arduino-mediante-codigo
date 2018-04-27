@@ -2,7 +2,7 @@
 
 Sólo nos falta incorporar la librería LiquidCrystal_I2C que te [lo puedes descargar aquí](https://codeload.github.com/marcoschwartz/LiquidCrystal_I2C/zip/master)
 
-Una vez descargado, es un fichero comprimido .zip o .rar **no lo descomprimas** diréctamente desde el menú del entorno de programación lo incorporas de esta manera:
+Una vez descargado, es un fichero comprimido .zip o .rar **no lo descomprimas** diréctamente desde el menú del entorno de programación lo incorporas de esta manera :
 
 ![](/assets/librerias.gif)
 
