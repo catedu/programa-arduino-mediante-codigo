@@ -52,13 +52,13 @@
   * [3.5.2 Libreria DHT11.h](libreria_dht11h.md)
   * [3.5.3 Libreria DHT12.h](libreria_dht12h.md)
   * [3.5.4 M9 Numéricamente T y H](montaje_8_medicin_t_y_h_por_puerto_serie.md)
-  * [3.5.5 Processing](processing.md)
-  * [3.5.6 M10 Gráficamente T y H](montaje_9_representacin_grfica_de_medidas_con_processing.md)
-  * [3.5.7 dweet.io](dweetio.md)
-  * [3.5.8 M11 Por Internet T y H](montaje_10_visualizacin_de_datos_en_la_nube_internet_de_las_cosas.md)
-  * [3.5.5 Por LCD](355-por-lcd.md)
+  * [3.5.5 M10 Por LCD](355-por-lcd.md)
+  * [3.5.6 Processing](processing.md)
+  * [3.5.7 M11 Gráficamente T y H](montaje_9_representacin_grfica_de_medidas_con_processing.md)
+  * [3.5.8 dweet.io](dweetio.md)
+  * [3.5.9 M12 Por Internet T y H](montaje_10_visualizacin_de_datos_en_la_nube_internet_de_las_cosas.md)
 * [3.6 Sensor de infrarrojos CNY70](sensor_de_infrarrojos_cny70.md)
-  * [3.6.1 M12 detección linea blanca](montaje_11_deteccin_linea_blanca.md)
+  * [3.6.1 M13 detección linea blanca](montaje_11_deteccin_linea_blanca.md)
 
 ## 4. Comunicaciones
 
