@@ -1,5 +1,5 @@
 
-# Montaje 3: Potenciómetro
+# Montaje : Potenciómetro
 Vamos a realizar un programa para comprobar que al variar el valor de una resistencia mediante un potenciómetro, también variará la cantidad de luz que emite un led. Como se puede ver en el siguiente vídeo, a medida que giramos el potenciómetro el led varía su luminosidad.
 
 {% youtube %}https://www.youtube.com/watch?v=EAryWgTyt8Y&feature=youtu.be{% endyoutube %}
