@@ -1,4 +1,4 @@
-# Montaje3 Texto en LCD
+# Montaje Texto en LCD
 
 Vamos a realizar un ejemplo para practicar:
 
@@ -16,9 +16,8 @@ El código es sencillo, la primera parte que sólo lo hace una vez, tiene que es
 
 **OJO CAMBIA TU DIRECCIÓN 0x3F si no es esa**
 ```cpp+lineNumbers:true
-include <Wire.h> 
+#include <Wire.h> 
 #include <LiquidCrystal_I2C.h>
-
 
 LiquidCrystal_I2C lcd(0x3F,16,2);  ////Crear el objeto lcd  dirección  0x3F y 16 columnas x 2 filas
 
@@ -27,7 +26,7 @@ void setup() {
   // Inicializar el LCD
   lcd.init();
  
-  for (int i=0; i <= 255; i++){
+  for (int i=0; i <= 4; i++){
       lcd.backlight(); //Encender la luz de fondo.
       lcd.setCursor(1, 0);  // Escribimos el Mensaje en el LCD en una posición 1,0 
       lcd.print("ATENTOS EN:");
