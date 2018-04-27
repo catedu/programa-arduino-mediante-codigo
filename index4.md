@@ -16,4 +16,9 @@ En el Arduino trabajamos con dos tipos de comunicaciones:
 * **Inalámbrica**: La comunicación vía *Bluetooth*
     * En esta unidad vamos a utilizar un nuevo dispositivo **JY-MCU**
     * Emparejaremos con nuestro Smartphone (Android) y podremos enviar órdenes de nuestro móvil al Arduino.
+    
+    i tienes dudas técnicas en este capítulo pon un ticket a http://soporte.catedu.es/ y te ayudaremos:
+
+![](http://aularagon.catedu.es/materialesaularagon2013/Arduino-codigo/travoltin.gif)
+
 
