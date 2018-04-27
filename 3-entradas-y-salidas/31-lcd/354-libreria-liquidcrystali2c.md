@@ -4,7 +4,7 @@ Sólo nos falta incorporar la librería LiquidCrystal_I2C que te [lo puedes desc
 
 Una vez descargado, es un fichero comprimido .zip o .rar **no lo descomprimas** diréctamente desde el menú del entorno de programación lo incorporas de esta manera :
 
-![](/assets/librerias.gif)
+![](/assets/librerias2.gif)
 
 
 ##Principales funciones

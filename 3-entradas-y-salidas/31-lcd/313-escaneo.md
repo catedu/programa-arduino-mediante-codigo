@@ -1,5 +1,5 @@
 #Escaneo
-El bus I2C está vinculado en el Arduino Uno a los Pines A4 y A5 como hemos visto en la conexión, necesita la librería Wire.h que está de forma nativa, pero la **dirección de dispositivo no lo sabemos** PARA ELLO HAY QUE EJECUTAR ESTE CÓDIGO:
+El bus I2C está vinculado en el Arduino Uno a los Pines A4 y A5 como hemos visto en [la anterior página](/3-entradas-y-salidas/31-lcd/312-i2c.md), el protocolo serie I2C necesita **la librería Wire.h **que está de forma nativa en el programa [Arduino IDE](https://www.arduino.cc/en/Main/Software), pero la **dirección de dispositivo no lo sabemos** PARA ELLO HAY QUE EJECUTAR ESTE CÓDIGO:
 ```cpp+lineNumbers:true
 #include <Wire.h>
  
