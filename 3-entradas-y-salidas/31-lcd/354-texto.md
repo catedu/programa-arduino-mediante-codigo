@@ -1,12 +1,16 @@
-#Texto
+# Montaje3 Texto en LCD
 
-Vamos a realizar este ejemplo:
+Vamos a realizar un ejemplo para practicar:
+
+* El encendido y apagado de la pantalla
+* Visualización de texto
+* Visualización de texto con desplazamiento
 
 {% youtube %}    
 https://www.youtube.com/watch?v=CBcGb9WWihY
 {% endyoutube%}
 
-El código sería:
+El código del vídeo anterior es este:
 **OJO CAMBIA TU DIRECCIÓN 0x3F si no es esa**
 ```cpp+lineNumbers:true
 include <Wire.h> 
