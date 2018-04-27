@@ -6,11 +6,14 @@ Vamos a realizar un ejemplo para practicar:
 * Visualización de texto
 * Visualización de texto con desplazamiento
 
+Practicaremos qué código tiene que estar en el código dentro de _setup_ y qué código dentro de _bool_:
+
 {% youtube %}    
 https://www.youtube.com/watch?v=CBcGb9WWihY
 {% endyoutube%}
 
-El código del vídeo anterior es este:
+El código es sencillo, la primera parte que sólo lo hace una vez, tiene que estar en setup y en loop sólo la parte de que se desplaza contínuamente.
+
 **OJO CAMBIA TU DIRECCIÓN 0x3F si no es esa**
 ```cpp+lineNumbers:true
 include <Wire.h> 
