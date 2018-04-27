@@ -29,7 +29,6 @@ float cm=0; //Para almacenar el valor obtenido en cm valor=0
 
 void setup() {
 
-  Serial.begin(9600);
   pinMode(trigPin, OUTPUT);
   pinMode(echoPin, INPUT);
   
@@ -57,8 +56,8 @@ void loop() {
   lcd.setCursor(0, 0); // Escribimos el Mensaje en el LCD en una posición 1,0
   lcd.print("Distancia:");
   lcd.setCursor(0, 1); // Escribimos el Mensaje en el LCD en una posición 1,0
-  lcd.println(cm);
-  lcd.println(" cm ");
+  lcd.print(cm);
+  lcd.print(" cm ");
   delay(100);
 }
 ```

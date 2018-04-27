@@ -56,6 +56,7 @@
   * [3.5.6 M10 Gráficamente T y H](montaje_9_representacin_grfica_de_medidas_con_processing.md)
   * [3.5.7 dweet.io](dweetio.md)
   * [3.5.8 M11 Por Internet T y H](montaje_10_visualizacin_de_datos_en_la_nube_internet_de_las_cosas.md)
+  * [3.5.5 Por LCD](355-por-lcd.md)
 * [3.6 Sensor de infrarrojos CNY70](sensor_de_infrarrojos_cny70.md)
   * [3.6.1 M12 detección linea blanca](montaje_11_deteccin_linea_blanca.md)
 
