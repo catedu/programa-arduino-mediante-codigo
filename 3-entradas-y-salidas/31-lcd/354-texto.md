@@ -16,26 +16,26 @@ El código es sencillo, la primera parte que sólo lo hace una vez, tiene que es
 
 **OJO CAMBIA TU DIRECCIÓN 0x3F si no es esa**
 ```cpp+lineNumbers:true
-#include <Wire.h> 
+#include <Wire.h>
 #include <LiquidCrystal_I2C.h>
 
-LiquidCrystal_I2C lcd(0x3F,16,2);  ////Crear el objeto lcd  dirección  0x3F y 16 columnas x 2 filas
+LiquidCrystal_I2C lcd(0x3F,16,2); ////Crear el objeto lcd dirección 0x3F y 16 columnas x 2 filas
 
 
 void setup() {
   // Inicializar el LCD
   lcd.init();
- 
   for (int i=0; i <= 4; i++){
-      lcd.backlight(); //Encender la luz de fondo.
-      lcd.setCursor(1, 0);  // Escribimos el Mensaje en el LCD en una posición 1,0 
-      lcd.print("ATENTOS EN:");
-      lcd.setCursor(1, 1); // Escribimos el Mensaje en el LCD en una posición  1,1
-      lcd.print("www.catedu.es");
-      delay (400);
-      lcd.noBacklight(); //apaga la luz de fondo
-      delay (200);
+     lcd.backlight(); //Encender la luz de fondo.
+    lcd.setCursor(1, 0); // Escribimos el Mensaje en el LCD en una posición 1,0
+    lcd.print("ATENTOS EN:");
+    lcd.setCursor(1, 1); // Escribimos el Mensaje en el LCD en una posición 1,1
+    lcd.print("www.catedu.es");
+    delay (400);
+    lcd.noBacklight(); //apaga la luz de fondo
+    delay (200);
   }
+  lcd.backlight();
   lcd.setCursor(1, 0);
   lcd.print("CURSO DE ARDUINO ACTUALIZADO");
   lcd.setCursor(1, 1);
@@ -44,7 +44,7 @@ void setup() {
 
 void loop() {
   //desplazamos una posición a la izquierda
-  lcd.scrollDisplayLeft(); 
+  lcd.scrollDisplayLeft();
   delay(400);
 }
 ```
