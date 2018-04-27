@@ -46,6 +46,7 @@
   * [3.5.5 M7 Texto en LCD](3-entradas-y-salidas/31-lcd/354-texto.md)
 * [3.4 Sensor de ultrasonidos](sensor_de_ultrasonidos.md)
   * [3.4.1 M8: Medición](montaje_7_medicin_de_la_distancia.md)
+  * [3.4.2 M9 Medición con LCD](342-m9-medicion-con-lcd.md)
 * [3.5 Temperatura y humedad](control_de_temperatura_y_humedad.md)
   * [3.5.1 Conexión](medida_de_la_temperatura_y_la_humedad_ambiente.md)
   * [3.5.2 Libreria DHT11.h](libreria_dht11h.md)
