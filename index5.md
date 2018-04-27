@@ -1,8 +1,8 @@
 
-# Control y robótica
+# Robótica
 
 
-Es este capítulo analizaremos sensores y varios proyectos reales para usarlos.
+En esta capítulo vamos a dar movimento a nuestro Arduino.
 
 ![](img/Captura_de_pantalla_2015-05-07_a_las_17.04.46.png)
 

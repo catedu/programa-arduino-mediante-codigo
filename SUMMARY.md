@@ -76,9 +76,9 @@
   * [4.2.1 M2: dos Arduinos](montaje_2_conectar_dos_arduinos.md)
   * [4.2.2 Otras conexiones](otras_conexiones.md)
 
-## 5. Control y robótica
+## 5. Robótica
 
-* [5.0 Control y robótica](index5.md)
+* [5.0 Robótica](index5.md)
 * [5.1 Control de servomotores](control_de_servomotores.md)
   * [5.1.1 M1 Test servo](montaje_1_testea_tu_servo.md)
   * [5.1.2 Conexión](descripcin_y_esquemas.md)
