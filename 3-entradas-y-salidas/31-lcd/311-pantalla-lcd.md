@@ -4,3 +4,4 @@ La pantalla LCD tiene un precio muy bajo, el más común es el Hitachi HD44780 m
 Su conexión **DIRECTA** con el Arduino no es recomendable por la cantidad de cables que se necesitan y el código elaborado, pero tiene la ventaja de tener total libertad en creación de carácteres y control. Si quieres ver esta opción puedes ver [la página de Luis LLamas](https://www.luisllamas.es/arduino-lcd-hitachi-hd44780/)
 
 ![](/assets/lcd.jpg)
+
