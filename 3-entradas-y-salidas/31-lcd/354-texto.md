@@ -34,7 +34,7 @@ void setup() {
       lcd.setCursor(1, 1); // Escribimos el Mensaje en el LCD en una posición  1,1
       lcd.print("www.catedu.es");
       delay (400);
-      lcd.noBacklight(); 
+      lcd.noBacklight(); //apaga la luz de fondo
       delay (200);
   }
   lcd.setCursor(1, 0);
