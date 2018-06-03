@@ -70,7 +70,7 @@
   * [4.1.4 Vincular móvil](vincular_mvil.md)
   * [4.1.5 M1 Encender LEDs](montaje_1_encender_leds_con_edubasica.md)
   * [4.1.6 M1bis sin EDUBASICA](montaje_1bis_encender_leds_sin_edubasica.md)
-  * [4.1.7 Para avanzados](configuracion_avanzada.md)
+  * [4.1.7 Configuración avanzada](configuracion_avanzada.md)
   * [4.1.8 Bluetooth maestro](bluetooth_maestro.md)
 * [4.2  Arduino-Arduino](conexin_entre_dos_arduinos_por_cable.md)
   * [4.2.1 M2: dos Arduinos](montaje_2_conectar_dos_arduinos.md)
