@@ -31,7 +31,7 @@ Todo lo que está entre las llaves de **loop()**, se ejecuta indefinidamente. As
 
 ¡Atrevámonos y cambiemos los tiempos de parada!
 
-{% youtube %}https//www.youtube.com/watch?v=t6W-afXm1Fo?rel=0{% endyoutube %}
+{% youtube %}https://www.youtube.com/watch?v=EFFSLvIF9rY{% endyoutube %}
 
 
 
