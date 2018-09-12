@@ -1,5 +1,5 @@
 
-# Montaje 4: Mapeo Potenciometro
+# Montaje : Mapeo Potenciometro
 Vamos LEER LOS VALORES DEL POTENCIÓMETRO EN PANTALLA
 
 ##SIN EDUBÁSICA

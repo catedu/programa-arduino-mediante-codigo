@@ -5,6 +5,8 @@ Vamos a controlar el encendido y apagado de un led conectado al pin13 de Arduino
 
 ¿Por qué el pin13 y no otro? Podríamos hacerlo con otro, pero el pin13 tiene asociado un led en la placa justo debajo de el y así nos evitamos tener que montar. Si pusiéramos un pin polarizado correctamente entre el pin13 y GND también funcionaría. El pin13 tiene también una resistencia que hace posible conectarle un led directamente, si hacemos el montaje con otro pin debemos añadir esta resistencia de 10Kohm entre el led y el pin.
 
+>Acuérdate: La pata más larga del LED es el (+) por lo tanto en el D13 y el corto (-) en GND.
+
 ![](img/Captura_de_pantalla_2015-05-19_a_las_11.31.53.png)
 
 ```cpp+lineNumbers:true
@@ -31,7 +33,7 @@ Todo lo que está entre las llaves de **loop()**, se ejecuta indefinidamente. As
 
 ¡Atrevámonos y cambiemos los tiempos de parada!
 
-{% youtube %}https//www.youtube.com/watch?v=t6W-afXm1Fo?rel=0{% endyoutube %}
+{% youtube %}https://www.youtube.com/watch?v=EFFSLvIF9rY{% endyoutube %}
 
 
 

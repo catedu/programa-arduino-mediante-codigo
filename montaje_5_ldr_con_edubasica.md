@@ -1,5 +1,5 @@
 
-# Montaje 5: LDR
+# Montaje : LDR
 
 Hasta ahora hemos trabajado con resistencias de valor fijo, pero existen una serie de resistencias que varían según distintos parámetros físicos a las que se les somete como presión, luz y temperatura entre otros. Existe una gran variedad que se utilizan para construir lo que llamamos sensores. 
 

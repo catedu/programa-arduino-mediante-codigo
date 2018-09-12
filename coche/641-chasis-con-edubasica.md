@@ -4,6 +4,8 @@ Puedes ver en [esta página de Luis Llamas ](https://www.luisllamas.es/coche-rob
 
 ![](/assets/coche1.png)
 
+Si quieres hacerlo todo terreno [Luis Llamas te explica cómo hacerlo con cadenas](https://www.luisllamas.es/arduino-robot-cadenas/).
+
 ###Conexiones
 
 Las conexiones son muy sencillas:

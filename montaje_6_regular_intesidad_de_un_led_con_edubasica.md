@@ -1,5 +1,5 @@
 
-# Montaje 6 Regular intesidad de un LED
+# Montaje Regular intesidad de un LED
 
 Se trata de obtener el mismo efecto que se consiguió en [la práctica correspondiente al potenciómetro](montaje_4_mapeo_potenciometro_edubasica.html), las instrucciones principales eran:
 

@@ -1,5 +1,5 @@
 
-# Montaje 14: Pitido
+# Montaje : Pitido
 Vamos a incorporar un altavoz y realizar una sirena. Al ser una bobina, es conveniente utilizar una amplificación por medio de un transistor, por D6 enviaremos la señal cuadrada a la base del transistor.
 
 ##SIN EDUBASICA
