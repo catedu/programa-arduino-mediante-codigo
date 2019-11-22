@@ -26,9 +26,5 @@ Disponemos de un repositorio de github para la descarga de los esquemas de Edub√
 
 <a class="twitter-timeline" href="https://twitter.com/EduBasicaShield?ref_src=twsrc%5Etfw">Tweets by EduBasicaShield</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-##Tweets sobre #EduBasica
-
-<a class="twitter-timeline" href="https://twitter.com/EduBasica?ref_src=twsrc%5Etfw">Tweets by EduBasica</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
 
 
