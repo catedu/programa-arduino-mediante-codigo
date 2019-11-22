@@ -2,4 +2,4 @@
 
 ##Tweets sobre #EduBasica
 
-<a href="https://twitter.com/intent/tweet?button_hashtag=EduBásica&ref_src=twsrc%5Etfw" class="twitter-hashtag-button" data-show-count="false">Tweet #EduBásica</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<a class="twitter-timeline" href="https://twitter.com/EduBasica?ref_src=twsrc%5Etfw">Tweets by EduBasica</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
