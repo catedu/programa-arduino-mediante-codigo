@@ -27,7 +27,7 @@ Y vamos a utilizar de salida el diodo verde conectado a D3 y a una resistencia y
 
 Vamos a ver una pequeña demostración:
 
-{% youtube %}https://www.youtube.com/watch?v=LQQ7a-pqwV0{% endyoutube %}
+####ATENCIÓN YOUTUBE HA BORRADO EL VÍDEO, PROCURAREMOS VOLVERLO A REEMPLAZAR TAN PRONTO COMO PODAMOS
 
 Cargamos el programa ejemplo, en la placa Arduino y teniendo acoplada la placa EduBásica o montados los circuitos en una placa protoboard, podemos ver su funcionamiento.
 
