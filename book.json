@@ -1,1 +1,62 @@
-{"plugins": ["youtube", "accordion", "-highlight", "sunlight-highlighter", "image-captions", "quiz", "styled-blockquotes", "localized-footer", "git-author", "githubcontributors", "edit-link"], "pluginsConfig": {"sunlight-highlighter": {"theme": "dark", "lineNumbers": true}, "image-captions": {"caption": "Imagen - _CAPTION_"}, "localized-footer": {"hline": true, "filename": "./FOOTER.md"}, "git-author": {"position": "bottom", "modifyTpl": "Ultima actualización por {user} {timeStamp}", "createTpl": false, "timeStampFormat": "DD-MM-YYYY HH:mm:ss"}, "githubcontributors": {"githubOwner": "catedu", "githubRepository": "hojas-de-calculo"}, "quiz": {"labels": {"check": "Comprobar", "showExplanation": "Retroalimentación", "showCorrect": "Mostrar la respuesta correcta", "explanationHeader": "Explicación"}, "text": {"noChosen": "Elige al menos una respuesta", "incomplete": "Faltan algunas respuestas correctas"}, "buttons": {"showCorrect": true, "showExplanation": true}}, "edit-link": {"base": "https://github.com/catedu/programa-arduino-mediante-codigo/edit/master", "label": "Edita esta página"}}}
+{
+  "plugins": [
+    "youtube",
+    "accordion",
+    "-highlight",
+    "sunlight-highlighter",
+    "image-captions",
+    "quiz",
+    "styled-blockquotes",
+    "localized-footer",
+    "git-author",
+    "githubcontributors",
+    "edit-link",
+    "ga"
+  ],
+  "pluginsConfig": {
+    "sunlight-highlighter": {
+      "theme": "dark",
+      "lineNumbers": true
+    },
+    "image-captions": {
+      "caption": "Imagen - _CAPTION_"
+    },
+    "localized-footer": {
+      "hline": true,
+      "filename": "./FOOTER.md"
+    },
+    "git-author": {
+      "position": "bottom",
+      "modifyTpl": "Ultima actualización por {user} {timeStamp}",
+      "createTpl": false,
+      "timeStampFormat": "DD-MM-YYYY HH:mm:ss"
+    },
+    "githubcontributors": {
+      "githubOwner": "catedu",
+      "githubRepository": "hojas-de-calculo"
+    },
+    "quiz": {
+      "labels": {
+        "check": "Comprobar",
+        "showExplanation": "Retroalimentación",
+        "showCorrect": "Mostrar la respuesta correcta",
+        "explanationHeader": "Explicación"
+      },
+      "text": {
+        "noChosen": "Elige al menos una respuesta",
+        "incomplete": "Faltan algunas respuestas correctas"
+      },
+      "buttons": {
+        "showCorrect": true,
+        "showExplanation": true
+      }
+    },
+    "edit-link": {
+      "base": "https://github.com/catedu/programa-arduino-mediante-codigo/edit/master",
+      "label": "Edita esta página"
+    },
+    "ga": {
+      "token": "UA-135691041-2"
+    }
+  }
+}
