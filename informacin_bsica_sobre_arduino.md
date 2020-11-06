@@ -53,3 +53,6 @@ Es muy útil para activar servomotores y llevarlos a una posición determinada o
 
 Si son motores muy pequeños sí sería posible aunque no es recomendable. Los motores necesitan un consumo alto de corriente, sobre todo si tienen que mover cierta carga, por lo que se recomienda o bien utilizar una tarjeta Shield o extensión de Arduino que dispone de circuitería apta para proporcionar dicha corriente (transistores). En este manual utilizamos una Shield bautizada como Edubásica de elaboración propia que dispone de un transistor y un circuito integrado LM293 para realizar esta función, además de otras ventajas para el aprendizaje de Arduino.
 
+### **Para saber más ...**
+Te recomendamos esta página donde indica la historia y la electrónica al detalle de esta placa. https://programarfacil.com/blog/arduino-blog/arduino-uno-r3/
+
