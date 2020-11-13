@@ -57,9 +57,9 @@ La shield de [otro curso en CATEDU](https://catedu.gitbooks.io/programa-arduino-
 
 ![](https://catedu.gitbooks.io/programa-arduino-con-echidna/content/images/image1.png)
 
-#### SHIELD VISUALINO k5864195
+#### SHIELD k5864195
 
-Es una shield bastante barata, por 10€ placa Arduino+Shield Visualino y nos gusta porque tiene :
+Es una shield bastante barata, [por 10€](https://www.electrohobby.es/kit-arduino/343-390-kit-inicio-visualino-0606110073714.html#/50-placas_arduino-clon_uno_r3/56-cables_usb-tengo_cable_usb) placa Arduino+Shield Visualino y nos gusta porque tiene :
 
 - 4 diodos LED
 - 3 pulsadores
@@ -68,6 +68,8 @@ Es una shield bastante barata, por 10€ placa Arduino+Shield Visualino y nos gu
 - 1 Display
 
 O sea buena y barata. ¿Por qué seguimos apostanto por Edubásica? Por la posibilidad de Edubásica de poner motores y por lo tanto es más motivador. Echidna nos gusta porque tiene un Joistick, sensor de luz.. que también da juego gamificado.. en fin, Visualino es una buena opcion para Arduino básico.
+
+![](img/shieldvisualino.jpg)
 
 #### OTRAS SHIELD COMERCIALES
 
