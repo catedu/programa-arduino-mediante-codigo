@@ -6,7 +6,7 @@
 **EDUBASICA** es una tarjeta de prototipado rápido para conectar a Arduino. Incluye componentes electrónicos básicos para gran varieda de prácticas y proyectos. Es una tarjeta multipropósito con componentes electrónicos incluidos que puedes usar para fabricar un robot, controlar un sistema de poleas, activar barreras, comunicar dispositivos bluetooth, y todo lo que te puedas imaginar.
 
 + información, conseguir una, etc.. en [http://www.practicasconarduino.com](http://www.practicasconarduino.com/edubasica/)
-+ Otras Shields [ver Echidna](https://catedu.gitbooks.io/programa-arduino-con-echidna/content/tema_1_como_utilizar_echidna/11_que_es_echidnashield.html)
++ Otras Shields [ver Echidna](https://catedu.github.io/programa-arduino-con-echidna/tema_1_como_utilizar_echidna/11_que_es_echidnashield.html)
 
 ![](/assets/EdubasicaQuickStartGuide-2.jpg)
 

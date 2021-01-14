@@ -53,9 +53,9 @@ La shield de este curso **EDUBASICA**
 
 ![](img/edubasica01.jpg)
 
-La shield de [otro curso en CATEDU](https://catedu.gitbooks.io/programa-arduino-con-echidna/content/): **ECHIDNA**
+La shield de [otro curso en CATEDU](https://catedu.github.io/programa-arduino-con-echidna/): **ECHIDNA**
 
-![](https://catedu.gitbooks.io/programa-arduino-con-echidna/content/images/image1.png)
+![](https://catedu.github.io/programa-arduino-con-echidna/images/image1.png)
 
 #### SHIELD k5864195
 

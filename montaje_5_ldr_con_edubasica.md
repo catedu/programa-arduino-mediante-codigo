@@ -21,7 +21,7 @@ Hay que conectar en formato pull-down el LDR a A1 y un led verde a D3:
 
 Como vemos en el esquema, el LDR está conectado a la entrada A1 del Arduino, por lo tanto la instrucción de lectura será **_analogRead(1)_** lo mapearemos correctamente a una variable llamada **luz** y utilizaremos el LED Verde conectado a D3 por lo que la instrucción de salida será **analogWrite(3,luz)**
 
->Nota: Si no sabes de dónde salen los valores 917,1024, 0,255 es que no has leido la página [Mapeo de valores](https://catedu.gitbooks.io/programa-arduino-mediante-codigo/content/mapeo_de_valores.html "Mapeo de valores")_
+>Nota: Si no sabes de dónde salen los valores 917,1024, 0,255 es que no has leido la página [Mapeo de valores](https://catedu.github.io/programa-arduino-mediante-codigo/mapeo_de_valores.html "Mapeo de valores")_
 
 ```cpp+lineNumbers:true
 //Detectamos la variación en la LDR

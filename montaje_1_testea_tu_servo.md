@@ -17,7 +17,7 @@ El resultado se puede ver aquí:
 
 {% youtube %}https//www.youtube.com/watch?v=b7JWiL-tucg?rel=0{% endyoutube %}
 
-Si eliges uno un poco más caro como el **MG90S** no tiene estos problemas en los extremos. [Ver](https://catedu.gitbooks.io/programa-arduino-con-echidna/content/55-rele.html)
+Si eliges uno un poco más caro como el **MG90S** no tiene estos problemas en los extremos. [Ver](https://catedu.github.io/programa-arduino-con-echidna/55-rele.html)
 
 Mira la diferencia con un **servo de rotación continúa**, fíjate como:
 - Los extremos 0º y 180º es a máxima velocidad, pero un sentido u otro.

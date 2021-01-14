@@ -17,7 +17,7 @@ y el esquema del Bluetooth **a la vez**
 
 Nos simplifica el cableado, conectando el módulo Bluetooth en el zócalo correspondiente [tal y como vimos](mdulo_bluetooth.html)
 
-![](https://catedu.gitbooks.io/programa-arduino-mediante-codigo/content/img/m4img3.png)
+![](https://catedu.github.io/programa-arduino-mediante-codigo/img/m4img3.png)
 
 Con piezas de lego fijamos el servo y le añadimos un cartón que simule una barrera. El pin del servo lo conectaremos **en el 7 de Edubásica**, el Vcc y G a Vin y masa.
 
