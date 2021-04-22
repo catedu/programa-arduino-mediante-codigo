@@ -5,7 +5,6 @@
     "-highlight",
     "sunlight-highlighter",
     "image-captions",
-    "quiz",
     "styled-blockquotes",
     "localized-footer",
     "git-author",
@@ -34,22 +33,6 @@
     "githubcontributors": {
       "githubOwner": "catedu",
       "githubRepository": "hojas-de-calculo"
-    },
-    "quiz": {
-      "labels": {
-        "check": "Comprobar",
-        "showExplanation": "Retroalimentación",
-        "showCorrect": "Mostrar la respuesta correcta",
-        "explanationHeader": "Explicación"
-      },
-      "text": {
-        "noChosen": "Elige al menos una respuesta",
-        "incomplete": "Faltan algunas respuestas correctas"
-      },
-      "buttons": {
-        "showCorrect": true,
-        "showExplanation": true
-      }
     },
     "edit-link": {
       "base": "https://github.com/catedu/programa-arduino-mediante-codigo/edit/master",

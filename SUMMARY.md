@@ -118,7 +118,6 @@
   * [EA.4 Condensadores](condensadores.md)
     * [EA.4.1 M4: Carga](montaje_8_carga_de_un_condensador.md)
     * [EA.4.2 M5: Descarga](montaje_9_descarga_del_condensador.md)
-    * [EA.4.3 Actividad](actividad.md)
   * [EA.5 Transistores](transistores.md)
     * [EA.5.1 Conexiones](en_edubasica.md)
     * [EA.5.2 M6: SAT-CORT](montaje_10_saturacin_y_corte.md)
